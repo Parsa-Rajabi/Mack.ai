@@ -8,9 +8,9 @@ This is a group assignment. This assignment is marked out of 55 points, plus an 
 Due Date
 
 # Project Plan Submission Deadline
-# January 31st, 2019 11:59 PM 
+January 31st, 2019 11:59 PM 
 # Final deadline
-# February 15th, 2019 11:59 PM 
+February 15th, 2019 11:59 PM 
 
 Overview of the Programming Project
 
