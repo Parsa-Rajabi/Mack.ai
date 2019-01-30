@@ -18,6 +18,7 @@ looper = True
 while looper:
     inputtext = input("> ")
     resp = client.message(inputtext)
+    print(resp)
     entities = resp['entities']
     valid = False
     for entity in entities:

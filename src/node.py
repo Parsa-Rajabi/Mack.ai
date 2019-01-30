@@ -2,7 +2,7 @@ class Node(object):
     data = ""
     children = []
     parent = ""     #another node object
-    text = ""
+    responses = dict() #dictionary of 10 things Mack can do per topic (ie. getPreference)text = ""
     node_function = None
 
     #constructor
@@ -26,11 +26,19 @@ class Node(object):
     def get_children(self):
         return self.children
 
+    def get_child(self, child_data):
+        children_list = self.get_children()
+        for child in children_list:
+            if child.get_data() == child_data:
+                return child
+        return None
+
+
     def get_parent(self):
         return self.parent
 
-    def get_text(self):
-        return self.text
+    def get_responses(self):
+        return self.responses
 
     def get_node_function(self):
         return self.node_function
