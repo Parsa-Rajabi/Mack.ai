@@ -1,7 +1,7 @@
 # COSC-310-Project
 The goal of this project is to create an interactive, text-based chatbot which is capable of completing 30 turns of conversation in a realistic manner. Our project is simulating a first, blind date scenario with the mysterious ‘Mackenzie’. It will cover topics like hobbies, interests and goals, after some time ‘Mackenzie’ will end the date either positively or negatively depending on whether the user responses match what is wanted in a partner. The project is being implemented using python and the library wit.ai which was chosen because it handles all of the natural language processing for us which turns the text into intents.
 
-All classes contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the follow structure.
+All classes contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the follow folder structure.
 
   + Source
   + + Data structure
