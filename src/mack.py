@@ -8,6 +8,7 @@ from __future__ import unicode_literals
 
 print("Starting Mack...")
 import personality as p
+# from src/wit import Wit
 from wit import Wit
 access_token = 'CDNAWIU4OA5JUBDQ3JESSC6AVZWRTDVR'
 
@@ -17,6 +18,7 @@ looper = True
 while looper:
     inputtext = input("> ")
     resp = client.message(inputtext)
+    print(resp)
     entities = resp['entities']
     valid = False
     for entity in entities:
