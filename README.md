@@ -1,13 +1,13 @@
 # COSC 310 Project
-The goal of this project is to create an interactive, text-based chatbot which is capable of completing 30 turns of conversation in a realistic manner. This must be accomplished using proper communication, structure and planning in order to accurately represent industry standards. 
+The goal of this project is to create an interactive, text-based chatbot which is capable of completing 30 turns of conversation in a realistic manner. This must be accomplished using proper communication, structure and planning in order to accurately represent the industry standards. 
 # Scenario
-Our project is simulating a first, blind date scenario with the mysterious ‘Mackenzie’. It will cover topics like hobbies, interests and goals. The scenario has multiple endings, both positive and negative, based on user responses. The majority of the responses will contain humour as the primary personality trait.
+Our project is simulating a blind first date scenario with the mysterious ‘Mackenzie’. It will cover topics such as hobbies, interests and goals. The scenario has multiple endings, both positive and negative, based on user responses. The majority of the responses will contain humour as the primary personality trait.
 # Implementation
 The project is being implemented using python and the library wit.ai which was chosen because it handles all of the natural language processing for us which turns the text into intents. Python was chosen due to it working well with wit.ai and we were all familiar with it. 
 
 
 # Class Structure
-All classes contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the following folder structure. *note gui will be included in Mack*
+All classes are camelCase, contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the following folder structure. *note gui will be included in Mack*
 
   + Source
   + + Data structure
