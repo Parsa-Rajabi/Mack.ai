@@ -7,7 +7,7 @@ The project is being implemented using python and the library wit.ai which was c
 
 
 # Class Structure
-All classes contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the follow folder structure. *note gui will be included in Mack*
+All classes contain only lowercase letters with capital letters signifying the start of a new word. Our classes will be organized using the following folder structure. *note gui will be included in Mack*
 
   + Source
   + + Data structure
