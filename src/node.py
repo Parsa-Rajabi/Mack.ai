@@ -1,21 +1,23 @@
 class Node(object):
     data = ""
     children = []
-    parent = ""     #another node object
-    responses = dict() #dictionary of 10 things Mack can do per topic (ie. getPreference)text = ""
+    parent = ""     # another node object
+    responses = dict()  # dictionary of 10 things Mack can do per topic (ie. getPreference)text = ""
     node_function = None
 
-    #constructor
-    def __init__(self, data, children, parent, text, node_function):
+    # constructor
+    def __init__(self, data, children, parent, text, responses):
         self.data = data
         self.children = children
         self.parent = parent
         self.text = text
-        self.node_function = node_function
+        self.responses = responses
 
-    def init_root_node(self, data, children, text, node_function):
-        node = Node(data, children, None, text, node_function)
+    def init_root_node(data, children, text, responses):
+        node = Node(data, children, None, text, responses)
         return node
+
+    init_root_node = staticmethod(init_root_node)
 
     def add_child(self, child):
         self.children.append(child)
@@ -32,7 +34,6 @@ class Node(object):
             if child.get_data() == child_data:
                 return child
         return None
-
 
     def get_parent(self):
         return self.parent
@@ -58,6 +59,7 @@ class Node(object):
     def set_node_function(self, method):
         self.node_function = method
 
-   # def find_next_child(self, confidence, value):
+    # def find_next_child(self, confidence, value):
 
 
+Node.init_root_node = staticmethod(Node.init_root_node)
