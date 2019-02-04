@@ -228,6 +228,7 @@ tree.add_node("pizza", [], pa, {
     "unknown": "What about pizza?"
 })
 tree.add_node("nachos", [], pa, {
+    "getPreference": "I love nachos!",
     "unknown": "What about nachos?"
 })
 
