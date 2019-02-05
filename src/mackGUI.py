@@ -26,6 +26,7 @@ client = Wit(access_token=access_token)
 #set specifics for the stuff in the gui
 root_widget = Builder.load_string('''
 <ScrollableLabel>:
+    #Specifics of Scrollable Label
     text: app.text
     Label:
         text: root.text
@@ -43,6 +44,7 @@ root_widget = Builder.load_string('''
         padding_y: 7
 <BoxLayout>
 <RootWidget>:
+    #Background Set
     BoxLayout:
         size: root.size
         pos: 0,0
@@ -51,6 +53,8 @@ root_widget = Builder.load_string('''
                 pos: self.pos
                 size: self.size
                 source: '../parsa.jpg'
+        
+        #Conversation Box
         BoxLayout:
             orientation: 'vertical'
             padding: 20
@@ -73,6 +77,8 @@ root_widget = Builder.load_string('''
                 ScrollableLabel:
                     id: Mack_output
                     markup: True
+            
+            #Bottom Bar
             BoxLayout:
                 orientation: 'horizontal'
                 spacing: 10
@@ -97,9 +103,8 @@ root_widget = Builder.load_string('''
 ''')
 
 
-
 print("Mack Started")
-i = 0
+
 
 class RootWidget(BoxLayout):
     pass
@@ -112,7 +117,7 @@ class ScrollableLabel(ScrollView):
 class ChatBot(App):
     text = StringProperty('')
 
-    #initiate the file to write and read from
+    #Initiate the file to write and read from / Start conversation
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         with open('Conversation.txt', 'w') as f:
@@ -122,7 +127,7 @@ class ChatBot(App):
             contents = f.read()
             self.text = contents
 
-    #handles user input and prints to screen
+    #Handles user input and prints to screen
     def runStuff(self, input):
         try:
                 #split sentences up into parts
@@ -158,7 +163,7 @@ class ChatBot(App):
         except:
                 pass
 
-    #reads text from Conversation.txt to screen
+    #Reads text from Conversation.txt to screen
     def read(self):
         with open('Conversation.txt', 'r') as f:
             contents = f.read()
