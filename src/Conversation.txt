@@ -1,1 +1,3 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b]User:[/b]   do you like fish?
+[b]Mack:[/b] I'm not a huge fan of fish. 

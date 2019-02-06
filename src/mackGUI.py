@@ -138,24 +138,16 @@ class ChatBot(App):
                     sentence=sentence.lstrip()
                     #get response from wit for each sentence
                     resp = client.message(sentence)
+                    #makes call to tree to get response
+                    response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+                    full_reply += response + ' '
+                    #checks to make sure the user isnt exiting, if so closes window intent == exit
                     entities = resp['entities']
-                    valid = False
                     for entity in entities:
                         if entity == "intent":
-                            valid = True
                             intent = resp['entities']['intent']
-                            if intent == "exit":
-                                response = "bye"
-                                full_reply += response + ' '
-                            if intent[0]['value'] in p.intents:
-                                response = p.intents[intent[0]['value']]
-                                full_reply += response + ' '
-                            else:
-                                response = "I'm sorry, I don't know about that."
-                                full_reply += response + ' '
-                    if not valid:
-                        response = "I'm sorry, I don't know what you want from me."
-                        full_reply += response + ' '
+                            if intent[0]['value'] == "exit":
+                                app.get_running_app().stop()
                 with open('Conversation.txt', 'a') as f:
                     f.write('[b]User:[/b] ' + '  ' + input + '\n')
                     f.write('[b]Mack:[/b]' + str(full_reply) + '\n')
