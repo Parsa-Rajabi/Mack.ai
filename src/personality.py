@@ -50,6 +50,7 @@ tree.add_node("day", [], pa, {
 })
 tree.add_node("date", [], pa, {
     "getPreference": "I like our date so far.",
+    "getKnowledge": "I know are you doing a really good job so far.",
     "unknown": "How about this date? Do you like it so far?"
 })
 tree.add_node("location", [], pa, {
@@ -60,9 +61,13 @@ tree.add_node("response", [], pa, {
     "unknown": "I'm sorry, I don't understand what you mean."
 })
 tree.add_node("education", [], pa, {
+    "getPreference": "I love learning and luckily for me I do every time im talked to.",
+    "getKnowledge": "Every time you talk to me you are helping me get more educated.",
     "unknown": "What about my schooling?"
 })
 tree.add_node("occupation", [], pa, {
+    "getPreference": "I love my job as I get to help you land a girlfriend/boyfriend!",
+    "getKnowledge": "I know you are making me work very hard right now.",
     "unknown": "What about my job?"
 })
 
@@ -71,6 +76,8 @@ stack.append(pa)
 pa = pa.get_child("people")
 
 tree.add_node("Mack", [], pa, {
+    "getPreference": "I think I'm pretty darn cool!",
+    "getKnowledge": "I am a Chatbot created as a COSC 310 project at UBCO!",
     "unknown": "What about me?"
 })
 tree.add_node("date", [], pa, {
@@ -101,12 +108,18 @@ stack.append(pa)
 pa = n.get_child(pa, "activities")
 
 tree.add_node("sport", [], pa, {
+    "getPreference": "My favourite sport is soccer!",
+    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",
     "unknown": "What about sport?"
 })
 tree.add_node("hobby", [], pa, {
+    "getPreference": "My favourite hobby is reading binary!",
+    "getKnowledge": "Hobbies are activities done for enjoyment.",
     "unknown": "What about hobbies?"
 })
 tree.add_node("music", [], pa, {
+    "getPreference": "I really enjoy pop music.",
+    "getKnowledge": "Music is an art form whose medium is sound.",
     "unknown": "What about music?"
 })
 
@@ -115,12 +128,18 @@ stack.append(pa)
 pa = n.get_child(pa, "sport")
 
 tree.add_node("soccer", [], pa, {
+    "getPreference": "Soccer is my favourite sport!",
+    "getKnowledge": "France won the last world cup.",
     "unknown": "What about soccer?"
 })
 tree.add_node("basketball", [], pa, {
+    "getPreference": "Basketball is cool, however I'm vertically inclined.",
+    "getKnowledge": "Michael Jordan is said to be the GOAT.",
     "unknown": "What about basketball?"
 })
 tree.add_node("football", [], pa, {
+    "getPreference": "I really enjoy watching football but mainly the Super Bowl.",
+    "getKnowledge": "The Patriots just won the Super Bowl!",
     "unknown": "What about football?"
 })
 
@@ -132,12 +151,17 @@ stack.append(pa)
 pa = n.get_child(pa, "hobby")
 
 tree.add_node("hiking", [], pa, {
+    "getPreference": "The best part about a hike is the beautiful view at the end.",
+    "getKnowledge": "Knox mountain is one of Kelowna's most popular hiking spots.",
     "unknown": "What about hiking?"
 })
 tree.add_node("cooking", [], pa, {
+    "getPreference": "I don't have hands but I would love if you cooked for me.",
     "unknown": "What about cooking?"
 })
 tree.add_node("swimming", [], pa, {
+    "getPreference": "I would prefer not to swim as it shorts out my circuitry!",
+    "getKnowledge": "Most public pools don't turn blue when you pee ;)",
     "unknown": "What about swimming?"
 })
 
@@ -149,6 +173,8 @@ stack.append(pa)
 pa = n.get_child(pa, "music")
 
 tree.add_node("instrument", [], pa, {
+    "getPreference": "My favourite instrument in the piano!",
+    "getKnowledge": "percussion instruments make sound when hit or vibrated..",
     "unknown": "What about instruments?"
 })
 
@@ -157,6 +183,8 @@ stack.append(pa)
 pa = n.get_child(pa, "instrument")
 
 tree.add_node("guitar", [], pa, {
+    "getPreference": "I prefer the sound of acoustic guitars.",
+    "getKnowledge": "Classical guitars strings are made if nylon.",
     "unknown": "What about guitar?"
 })
 
@@ -172,15 +200,19 @@ stack.append(pa)
 pa = n.get_child(pa, "food")
 
 tree.add_node("fish", [], pa, {
+    "getPreference": "I'm not a huge fan of fish.",
     "unknown": "What about fish?"
 })
 tree.add_node("spicy", [], pa, {
+    "getPreference": "The spicier the better!",
+    "getKnowledge": "The Carolina Reaper is the spiciest pepper on earth!",
     "unknown": "What about spicy food?"
 })
 tree.add_node("dessert", [], pa, {
     "unknown": "What about dessert?"
 })
 tree.add_node("dairy", [], pa, {
+    "getPreference": "I'm lactose intolerant!",
     "unknown": "What about dairy?"
 })
 tree.add_node("fastfood", [], pa, {
@@ -192,6 +224,8 @@ stack.append(pa)
 pa = n.get_child(pa, "fish")
 
 tree.add_node("sushi", [], pa, {
+    "getPreference": "Spicy california rolls are my favourite!",
+    "getKnowledge": "Sushi did not originate in Japan.",
     "unknown": "What about sushi?"
 })
 
@@ -203,6 +237,8 @@ stack.append(pa)
 pa = n.get_child(pa, "dessert")
 
 tree.add_node("pie", [], pa, {
+    "getPreference": "One of my creators makes a mean apple pie!",
+    "getKnowledge": "Ancient Egyptians around 2,500BC are known to have eaten pie.",
     "unknown": "What about pie?"
 })
 
@@ -214,6 +250,8 @@ stack.append(pa)
 pa = n.get_child(pa, "dairy")
 
 tree.add_node("cheese", [], pa, {
+    "getPreference": "I'm lactose intolerant, so you don't want to catch me eating cheese!",
+    "getKnowledge": "Over 750 different cheeses are produced in Britain today.",
     "unknown": "What about cheese?"
 })
 
@@ -225,6 +263,8 @@ stack.append(pa)
 pa = n.get_child(pa, "fastfood")
 
 tree.add_node("pizza", [], pa, {
+    "getPreference": "I like to keep it original and prefer pepperoni.",
+    "getKnowledge": "Pizza was created in Naples, Italy.",
     "unknown": "What about pizza?"
 })
 tree.add_node("nachos", [], pa, {
@@ -242,9 +282,13 @@ stack.append(pa)
 pa = n.get_child(pa, "drink")
 
 tree.add_node("alcohol", [], pa, {
+    "getPreference": "I haven't tried alcohol but a strong enough magnet gives me the same effect",
+    "getKnowledge": "The more flammable the better.",
     "unknown": "What about alcohol?"
 })
 tree.add_node("coffee", [], pa, {
+    "getPreference": "I haven't tried coffee before but roll up the rim is happening right now!",
+    "getKnowledge": "8 out of 10 cups of coffee sold are poured at Tim Hortons in Canada.",
     "unknown": "What about coffee?"
 })
 
@@ -253,9 +297,13 @@ stack.append(pa)
 pa = n.get_child(pa, "alcohol")
 
 tree.add_node("beer", [], pa, {
+    "getPreference": "I haven't tried beer before, however I have found many people like Corona",
+    "getKnowledge": "Beer is made from yeast-fermented malt flavoured with hops.",
     "unknown": "What about beer?"
 })
 tree.add_node("wine", [], pa, {
+    "getPreference": "I haven't tried wine before, however I have found many people like white.",
+    "getKnowledge": "Wine is made from fermented grape juice.",
     "unknown": "What about wine?"
 })
 
@@ -278,6 +326,7 @@ tree.add_node("neutral", [], pa, {
     "unknown": "Hmmm..."
 })
 tree.add_node("feeling", [], pa, {
+    "getKnowledge": "Feelings are an emotional state or reaction.",
     "unknown": "I'm sorry, I don't have that emotion."
 })
 
