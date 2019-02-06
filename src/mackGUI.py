@@ -89,7 +89,7 @@ root_widget = Builder.load_string('''
                     foreground_color: [0,0,0,1]
                     cursor_color: [0,0,0,1]
                     size_hint_x: .8
-                    multiline: False
+                    #multiline: False
                     write_tab: False
                     hint_text: "Insert Text Here"
                 Button:
