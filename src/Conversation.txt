@@ -1,1 +1,21 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b]User:[/b]   hi
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b]User:[/b]   how are you?
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   how are you
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   how are you!
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   how are y
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   how are u
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   how are u mack?
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   i love you
+[b]Mack:[/b] *wink* 
+[b]User:[/b]   should we make a chatbot together?
+[b]Mack:[/b] I'm sorry, I don't think I know that person. 
+[b]User:[/b]   what does you code look like?
+[b]Mack:[/b] I like you, and I dislike Donald Trump 
