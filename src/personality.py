@@ -149,6 +149,18 @@ tree.add_node("football", [], pa, {
     "getPastAction": "I would love to have played, however I'm slightly fragile.",
     "unknown": "What about football?"
 })
+tree.add_node("baseball", [], pa, {
+    "getPreference": "I like to baseball. My team is the Blue Jays.",
+    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",
+    "getPastAction": "I have not played baseball before.",
+    "unknown": "What about baseball?"
+})
+tree.add_node("golf", [], pa, {
+    "getPreference": "I like golf if Happy Gilmore counts as golf.",
+    "getKnowledge": "125K golf balls are hit into the water on the 17th hole of Sawgrass each year.",
+    "getPastAction": "I have not played golf before.",
+    "unknown": "What about golf?"
+})
 
 # topic > activities :
 pa = stack.pop()
@@ -203,9 +215,15 @@ tree.add_node("guitar", [], pa, {
     "unknown": "What about guitar?"
 })
 tree.add_node("piano", [], pa, {
+    "getPreference": "I love the sound of piano.",
+    "getKnowledge": "Almost every modern piano has 88 keys.",
+    "getPastAction": "I used to play guitar hero if that counts.",
     "unknown": "What about piano?"
 })
 tree.add_node("drum", [], pa, {
+    "getPreference": "I enjoy the sound of drums in a live band.",
+    "getKnowledge": "Drums are one of the world's oldest instruments.",
+    "getPastAction": "I played the drums in the game Rock Band before. Does that count?",
     "unknown": "What about drum?"
 })
 
@@ -216,7 +234,7 @@ stack.pop()  # if you need to add things here, change to 'pa = stack.pop()'
 # topic :
 pa = stack.pop()
 
-# topic > food : fish, spicy, dessert, dairy, fastfood
+# topic > food : fish, spicy, dessert, dairy, fastfood, fruit
 stack.append(pa)
 pa = n.get_child(pa, "food")
 
@@ -231,17 +249,25 @@ tree.add_node("spicy", [], pa, {
     "unknown": "What about spicy food?"
 })
 tree.add_node("dessert", [], pa, {
+    "getPreference": "I love dessert!",
+    "getKnowledge": "Chocolate chips were invented after chocolate chip cookies!",
+    "getPastAction": "I get an ice cream cake on my birthday every year.",
     "unknown": "What about dessert?"
 })
 tree.add_node("dairy", [], pa, {
     "getPreference": "I'm lactose intolerant!",
+    "getKnowledge": "Dairy is a great source for calcium!",
+    "getPastAction": "I used to have dairy until I realized I'm lactose intolerant.",
     "unknown": "What about dairy?"
 })
 tree.add_node("fastfood", [], pa, {
     "unknown": "What about fast food?"
 })
+tree.add_node("fruit", [], pa, {
+    "unknown": "What about fruit?"
+})
 
-# topic > food > fish : sushi
+# topic > food > fish : sushi, salmon, cod
 stack.append(pa)
 pa = n.get_child(pa, "fish")
 
@@ -252,6 +278,9 @@ tree.add_node("sushi", [], pa, {
     "unknown": "What about sushi?"
 })
 tree.add_node("salmon", [], pa, {
+    "getPreference": "Salmon is my favourite type of fish!",
+    "getKnowledge": "There are seven species of Pacific salmon.",
+    "getPastAction": "I made salmon on the barbecue just the other week.",
     "unknown": "What about salmon?"
 })
 tree.add_node("cod", [], pa, {
@@ -261,7 +290,7 @@ tree.add_node("cod", [], pa, {
 # topic > food :
 pa = stack.pop()
 
-# topic > food > dessert : pie
+# topic > food > dessert : pie, candy, ice cream, lemon squares, cake, pudding, cookies, brownies, chocolate
 stack.append(pa)
 pa = n.get_child(pa, "dessert")
 
@@ -300,7 +329,7 @@ tree.add_node("chocolate", [], pa, {
 # topic > food :
 pa = stack.pop()
 
-# topic > food > dairy : cheese
+# topic > food > dairy : cheese, milk, yogurt
 stack.append(pa)
 pa = n.get_child(pa, "dairy")
 
@@ -322,7 +351,7 @@ tree.add_node("yogurt", [], pa, {
 # topic > food :
 pa = stack.pop()
 
-# topic > food > fastfood : pizza, nachos
+# topic > food > fastfood : pizza, nachos, fries, wings, burgers
 stack.append(pa)
 pa = n.get_child(pa, "fastfood")
 
@@ -358,7 +387,7 @@ stack.pop()  # if you need to add things here, change to 'pa = stack.pop()'
 # topic :
 pa = stack.pop()
 
-# topic > drink : alcohol, coffee
+# topic > drink : alcohol, coffee, tea, pop, water
 stack.append(pa)
 pa = n.get_child(pa, "drink")
 
@@ -374,8 +403,17 @@ tree.add_node("coffee", [], pa, {
     "getPastAction": "No, I run off a different power source than caffeine.",
     "unknown": "What about coffee?"
 })
+tree.add_node("tea", [], pa, {
+    "unknown": "What about tea?"
+})
+tree.add_node("pop", [], pa, {
+    "unknown": "What about pop?"
+})
+tree.add_node("water", [], pa, {
+    "unknown": "What about water?"
+})
 
-# topic > drink > alcohol : beer, wine
+# topic > drink > alcohol : beer, wine, vodka, whiskey, coolers
 stack.append(pa)
 pa = n.get_child(pa, "alcohol")
 

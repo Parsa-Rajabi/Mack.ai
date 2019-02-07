@@ -1,47 +1,7 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b]User:[/b]   do you like yogurt?
-[b]Mack:[/b] I like talking to you, for one ;) 
-[b]User:[/b]   do you like parsa?
-[b]Mack:[/b] I love pizza. :) 
-[b]User:[/b]   do you like coolers? what do you know about coolers? have you had a cooler?
-[b]Mack:[/b] TODO: I like to... I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like whiskey? what do you know about whiskey? have you had a whiskey?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like vodka? what do you know about vodka? have you had a vodka?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like wine? what do you know about wine? have you had  wine?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. *wink* 
-[b]User:[/b]   do you like burgers? what do you know about burgers? have you had  a burger?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like wings? what do you know about wings? have you had  a wings?
-[b]Mack:[/b] TODO: I like to... I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like fries? what do you know about fries? have you had  a fries?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't think I know that person. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like milk? what do you know about milk? have you had milk?
-[b]Mack:[/b] I like you, and I dislike Donald Trump I'm sorry, I don't think I know that person. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like yogurt? what do you know about yogurt? have you had yogurt?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like chocolate? what do you know about chocolate? have you had chocolate?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't think I know that person. *wink* 
-[b]User:[/b]   do you like brownies? what do you know about brownies? have you had brownies?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like cookies? what do you know about cookies? have you had cookies?
-[b]Mack:[/b] I don't have hands but I would love if you cooked for me. I'm sorry, I don't think I know that person. *wink* 
-[b]User:[/b]   do you like pudding? what do you know about puddding? have you had pudding?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't think I know that person. I'm sorry, I don't know about that. 
-[b]User:[/b]   do you like cake? what do you know about cake? have you had cake?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't think I know that person. *wink* 
-[b]User:[/b]   do you like lemon squares? what do you know about lemon squares? have you had lemon squares?
-[b]Mack:[/b] I like talking to you, for one ;) I'm doing well, thanks. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like ice cream? what do you know about ice cream? have you had ice cream?
-[b]Mack:[/b] I love pizza. :) I'm doing well, thanks. *wink* 
-[b]User:[/b]   do you like salmon? what do you know about salmon? have you had salmon?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I'm sorry, I don't think I know that person. 
-[b]User:[/b]   do you like cod? what do you know about cod? have you had cod?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. *wink* 
-[b]User:[/b]   do you like drums? what do you know about drums? have you played drums?
-[b]Mack:[/b] I like talking to you, for one ;) I'm sorry, I don't think I know that person. I used to be nothing. Then I became a chat bot! 
-[b]User:[/b]   do you like piano? what do you know about piano? have you played piano?
-[b]Mack:[/b] I love pizza. :) I'm sorry, I don't know about that. I used to be nothing. Then I became a chat bot! 
-[b]User:[/b]   do you like coding? what do you know about coding? have you done coding?
-[b]Mack:[/b] TODO: I like to... I'm sorry, I don't think I know that person. I'm doing well, thanks. 
+[b]User:[/b]   have you drank water
+[b]Mack:[/b] I don't like liquids. 
+[b]User:[/b]   have you drank pop
+[b]Mack:[/b] I don't like liquids. 
+[b]User:[/b]   have you drank tea
+[b]Mack:[/b] I don't like liquids. 
