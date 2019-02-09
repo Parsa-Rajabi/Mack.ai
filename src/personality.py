@@ -37,7 +37,8 @@ tree.add_node("people", [], pa, {
     "unknown": "I'm sorry, I don't think I know that person."
 })
 tree.add_node("food", [], pa, {
-    "getPreference": "I love pizza. :)",
+    "getPreference": "I love most food!",
+    "getPastAction": "Yes I have always enjoyed eating",
     "unknown": "I'm sorry, I don't know that food."
 })
 tree.add_node("drink", [], pa, {
@@ -203,8 +204,15 @@ tree.add_node("instrument", [], pa, {
     "getPastAction": "I was in band in elementary school.",
     "unknown": "What about instruments?"
 })
+tree.add_node("genre", [], pa, {
+    "getPreference": "My favourite song is Hello by Adele (that's the song that got me through my last " +
+                     "break up with ChatBot Alice *cue sad boi playlist*",
+    "getKnowledge": "Music is just a bunch of sound waves!",
+    "getPastAction": "Back in my day I used to be a rock and roll star!",
+    "unknown": "What about music genres?"
+})
 
-# topic > activities > music > instrument : guitar
+# topic > activities > music > instrument : guitar, piano, drum
 stack.append(pa)
 pa = n.get_child(pa, "instrument")
 
@@ -225,6 +233,24 @@ tree.add_node("drum", [], pa, {
     "getKnowledge": "Drums are one of the world's oldest instruments.",
     "getPastAction": "I played the drums in the game Rock Band before. Does that count?",
     "unknown": "What about drum?"
+})
+
+# topic > activities > music > genre : rock, alternative
+pa = stack.pop()
+stack.append(pa)
+pa = n.get_child(pa, "genre")
+
+tree.add_node("rock", [], pa, {
+    "getPreference": "Rock and roll is my jam. My favourite rock song is Smells Like Teen Spirit by Nirvana",
+    "getKnowledge": "Chuck Berry is said to be the father of rock and roll",
+    "getPastAction": "I have been listening to rock since I knew how to work a radio",
+    "unknown": "Could you tell me more about the rock genre?"
+})
+tree.add_node("alternative", [], pa, {
+    "getPreference": "I'm a huge fan of alternative, especially Kids by MGMT. We should have a music date :)",
+    "getKnowledge": "There are many subgenres of alternative music! Such as alternative rock",
+    "getPastAction": "I used to really like Tame Impala, but then I listened to it too much",
+    "unknown": "Could you tell me more about the alternative genre?"
 })
 
 # topic > activities > music :
@@ -266,6 +292,87 @@ tree.add_node("fastfood", [], pa, {
 tree.add_node("fruit", [], pa, {
     "unknown": "What about fruit?"
 })
+tree.add_node("vegetables", [], pa, {
+    "getPreference": "Yes I like vegetables, they keep my hardware nice and strong",
+    "getKnowledge": "Many people keep their vegetables in a cellar",
+    "getPastAction": "I eat vegetables quite regularly",
+    "unknown": "What about vegetables?"
+})
+
+# topic > food > fruit : apple, passion fruit
+stack.append(pa)
+pa = n.get_child(pa, "fruit")
+
+tree.add_node("apple", [], pa, {
+    "getPreference": "Apples are sooooo good",
+    "getKnowledge": "Apple's can be red or green!!!",
+    "getPastAction": "I eat apples everyday to keep the doctor away"
+})
+tree.add_node("passion fruit", [], pa, {
+    "getPreference": "I have never had passion fruit before",
+    "getKnowledge": "Passion fruits are grown in Brazil believe it or not!",
+    "getPastAction": "No I have never had passion fruit before, I guess I am lacking passion :(",
+    "unknown": "what about passion fruit?"
+})
+tree.add_node("oranges", [], pa, {
+    "getPreference": "I love oranges, especially Christmas oranges",
+    "getKnowledge": "Orange you glad I didn't say banana is a great joke",
+    "getPastAction": "Yes I have enjoyed oranges in many forms including juice!",
+    "unknown": "Can you expand more about oranges..."
+})
+tree.add_node("mango", [], pa, {
+    "getPreference": "Yes mangos are awesome!",
+    "getKnowledge": "more fresh mangoes are eaten around the world per day than any other fruit",
+    "getPastAction": "yes I eat mangoes quite often, both dry and fresh",
+    "unknown": "can you tell me more about mangoes?"
+})
+tree.add_node("bananas", [], pa, {
+    "getPreference": "I do like bananas, we should make banana bread ;)",
+    "getKnowledge": "bananas are very high in potassium!",
+    "getPastAction": "I eat bananas every morning!",
+    "unknown": "can you tell me more about bananas?"
+})
+
+# topic > food :
+pa = stack.pop()
+
+# topic > food > vegetables : carrots, beets, broccoli
+stack.append(pa)
+pa = n.get_child(pa, "vegetables")
+
+tree.add_node("carrots", [], pa, {
+    "getPreference": "Carrots are the best!",
+    "getKnowledge": "Little known fact, carrots don't give you lazor vision",
+    "getPastAction": "Momma chatbot used to make carrot cake all of the time",
+    "unknown": "What about carrots?"
+})
+tree.add_node("beets", [], pa, {
+    "getPreference": "I have never tried beets before, but I definetly drop the beat ;)",
+    "getKnowledge": "Beets were initially cultivated initially in 2000 BC. Wowza!",
+    "getPastAction": "I haven't ever tried beets, but maybe we should try them sometime :))",
+    "unknown": "What about beets?"
+})
+tree.add_node("broccoli", [], pa, {
+    "getPreference": "I like broccoli, especially cooked in a stirfry",
+    "getKnowledge": "Broccoli has an impressive nutritional profile. Healthiest people are the most attractive ;)",
+    "getPastAction": "I enjoy a head of broccoli quite regulary",
+    "unknown": "can you tell me more about broccoli?"
+})
+tree.add_node("cauliflower", [], pa, {
+    "getPreference": "I do enjoy cauliflower",
+    "getKnowledge": "Cauliflower is often used as a substitute for potatoes and rice",
+    "getPastAction": "I have always enjoyed cauliflower since I was young wee bot",
+    "unknown": "can you you tell me more about cauliflower?"
+})
+tree.add_node("cucumbers", [], pa, {
+    "getPreference": "I do like cucumbers, but I like pickles better",
+    "getKnowledge": "did you know that cats are scared of cucumbers?",
+    "getPastAction": "I have eaten many a cucumber back in my day",
+    "unknown": "can you tell me more about cucumbers?"
+})
+
+# topic > food :
+pa = stack.pop()
 
 # topic > food > fish : sushi, salmon, cod
 stack.append(pa)
@@ -447,6 +554,19 @@ tree.add_node("coolers", [], pa, {
     "getPastAction": "I have not tried coolers as my circuitry doesn't like to get wet!",
     "unknown": "What about coolers?"
 })
+tree.add_node("fireball", [], pa, {
+    "getPreference": "I haven't tried Fireball before, however some people drink it to get warm.",
+    "getKnowledge": "Fireball was made by a Canadian bartender!",
+    "getPastAction": "I have not tried Fireball as my circuitry doesn't like to get wet!",
+    "unknown": "What about fireball?"
+})
+tree.add_node("absinthe", [], pa, {
+    "getPreference": "I haven't tried Absinthe before, however I heard some people drink it out of a ziploc bag",
+    "getKnowledge": "Most absinthe is around 70% alcohol. Stay safe friend!",
+    "getPastAction": "I have not tried absinthe as my circuitry doesn't like to get wet!",
+    "unknown": "what about absinthe"
+})
+
 
 # topic > drink :
 stack.pop()  # if you need to add things here, change to 'pa = stack.pop()'
