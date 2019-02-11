@@ -1,7 +1,5 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b]User:[/b]   have you drank water
-[b]Mack:[/b] I don't like liquids. 
-[b]User:[/b]   have you drank pop
-[b]Mack:[/b] I don't like liquids. 
-[b]User:[/b]   have you drank tea
-[b]Mack:[/b] I don't like liquids. 
+[b]User:[/b]   hey
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b]User:[/b]   hey
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
