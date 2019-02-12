@@ -1,5 +1,7 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
+
 [b]User:[/b]   hey
 [b]Mack:[/b] Hi there! I'm Mack. How are you today? 
 [b]User:[/b]   hey
 [b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+
