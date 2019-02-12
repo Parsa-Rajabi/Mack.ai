@@ -13,7 +13,7 @@ from kivy.uix.scrollview import ScrollView
 from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import StringProperty
 from kivy.lang import Builder
-
+from kivy.core.window import Window
 
 
 print("Starting Mack...")
@@ -89,7 +89,7 @@ root_widget = Builder.load_string('''
                     foreground_color: [0,0,0,1]
                     cursor_color: [0,0,0,1]
                     size_hint_x: .8
-                    #multiline: False
+                    multiline: False
                     write_tab: False
                     hint_text: "Insert Text Here"
                 Button:
@@ -100,6 +100,7 @@ root_widget = Builder.load_string('''
                     color: [1, 1, 1, 1]
                     on_press: app.runStuff(txt_input.text)
                     on_release: app.read()
+                    on_release: txt_input.text=""
 ''')
 
 
@@ -120,12 +121,23 @@ class ChatBot(App):
     #Initiate the file to write and read from / Start conversation
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        Window.bind(on_key_down=self._on_keyboard_down)
+        Window.bind(on_key_up=self._on_keyboard_up)
         with open('Conversation.txt', 'w') as f:
             f.write('[b]Mack:[/b] HI! My name is Mack and I am a chatbot!' + '\n')
             f.close()
         with open('Conversation.txt', 'r') as f:
             contents = f.read()
             self.text = contents
+
+    #Make it so on keyboard enter it runs and clears text of text box
+    def _on_keyboard_down(self, instance, keyboard, keycode, text, modifiers):
+        if keycode == 40:  # enter
+            app.runStuff(self.root.ids.txt_input.text)
+    def _on_keyboard_up(self,instance, keyboard, keycode):
+        if keycode == 40:  # enter
+            app.read()
+            self.root.ids.txt_input.text=""
 
     #Handles user input and prints to screen
     def runStuff(self, input):
