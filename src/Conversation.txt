@@ -1,11 +1,7 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b]User:[/b]   Do you like alternative music?
-[b]Mack:[/b] I'm a huge fan of alternative, especially Kids by MGMT. We should have a music date :) 
-[b]User:[/b]   Can you tell me about alternative music?
-[b]Mack:[/b] I'm not sure, sorry. 
-[b]User:[/b]   Have you ever listened to alternative music?
-[b]Mack:[/b] I used to really like Tame Impala, but then I listened to it too much 
-[b]User:[/b]   Could you tell me more about the alternative music genre?
-[b]Mack:[/b] I'm not sure, sorry. 
-[b]User:[/b]   how are you
-[b]Mack:[/b] I'm doing well, thanks. 
+
+[b]User:[/b]   hey
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b]User:[/b]   hey
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+
