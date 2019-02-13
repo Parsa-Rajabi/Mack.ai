@@ -23,6 +23,8 @@ class Tree(object):
     def navigate_tree(self, dictionary, entity, current_node):
         # extract dictionary of entities from main message
         entities_dict = dictionary['entities']
+        print(entities_dict)
+
 
         # determine if entity we are searching for is in our dictionary from wit.ai
         if entity in entities_dict:

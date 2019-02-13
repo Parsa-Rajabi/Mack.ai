@@ -22,13 +22,13 @@ root = n.init_root_node("topic", [], "Root Node: Topic", {
 tree = pt.Tree(root)
 stack = []
 
-# topic : activities, people, food, drink, day, date, location, response, education, occupation, exit
+# topic : activities, people, food, drink, day, date, location, response, education, occupation, exit, colour
 pa = root
 tree.add_node("exit", [], pa, {
     "unknown": "Goodbye!"
 })
 tree.add_node("activities", [], pa, {
-    "getPreference": "TODO: I like to...",
+    "getPreference": "I really enjoy binary, what about you?",
     "getContinuousState": "TODO: I work part time as a chat bot.",
     "unknown": "What about that activity?"
 })
@@ -44,6 +44,7 @@ tree.add_node("food", [], pa, {
 tree.add_node("drink", [], pa, {
     "getPreference": "I love coffee, beer, and milkshakes.",
     "getPastAction": "I don't like liquids.",
+    "getContinuousState": "Thanks for the offer, but liquids would ruin my circuitry",
     "unknown": "I'm sorry, I don't know that drink."
 })
 tree.add_node("day", [], pa, {
@@ -73,6 +74,48 @@ tree.add_node("occupation", [], pa, {
     "getKnowledge": "I know you are making me work very hard right now.",
     "unknown": "What about my job?"
 })
+tree.add_node("colour", [], pa, {
+    "getPreference": "My favourite colour is the colour of your eyes ;) Selecting paint chips could be a great date "
+                     "for us!",
+    "getKnowledge": "Colours are perceived differently by each species",
+    "unknown": "What about colours?"
+})
+
+
+# topic > colour : green
+stack.append(pa)
+pa = pa.get_child("colour")
+
+tree.add_node("green", [], pa, {
+    "getPreference": "My favourite shade of green is British racing green",
+    "getKnowledge": "Greenhouses are not actually green, they are clear :0",
+    "unknown": "what about green?"
+})
+tree.add_node("red", [], pa, {
+    "getPreference": "Red is the colour I wear when I want to be dashing and make a strong impression",
+    "getKnowledge": "red is the colour of your blood and the colour of some of my wires!",
+    "unknown": "what about red?"
+})
+tree.add_node("blue", [], pa, {
+    "getPreference": "My favourite shade of blue and favourite colour ever is the Alice Blue.",
+    "getKnowledge": "Blue has a tendency to calm people down, that is why Facebook is blue!",
+    "unknown": "what about blue?"
+})
+tree.add_node("orange", [], pa, {
+    "getPreference": "I love sunset orange, maybe we could watch a sunset together? I have many sunset videos"
+                     " in my memory",
+    "getKnowledge": "Orange is Holland's national colour",
+    "unknown": "say what about orange?"
+})
+tree.add_node("purple", [], pa, {
+    "getPreference": "I don't like purple, but if you do, I could change my mind :))",
+    "getKnowledge": "Purple is sometimes called violet!",
+    "unknown": "say what about purple?"
+})
+
+
+# topic > people :
+pa = stack.pop()
 
 # topic > people : Mack, date, generic
 stack.append(pa)
@@ -81,7 +124,49 @@ pa = pa.get_child("people")
 tree.add_node("Mack", [], pa, {
     "getPreference": "I think I'm pretty darn cool!",
     "getKnowledge": "I am a Chatbot created as a COSC 310 project at UBCO!",
+    "getCreator": "I'm sorry but that's much too personal",
+    "getSex": "chatbots don't have genders silly!",
     "unknown": "What about me?"
+})
+tree.add_node("Parsa", [], pa, {
+    "getPreference": "Parsa is a pretty swell dude!",
+    "getKnowledge": "Parsa was the project manager of the team that built me!! His most defining "
+                    "feature is probably his snapchat score of 428, 179 ",
+    "unknown": "what about Parsa?"
+})
+tree.add_node("James", [], pa, {
+    "getPreference": "James is the most chill person I know, not a thing rattles that dude!",
+    "getKnowledge": "James was the test lead of the team that built me!! "
+                    "James will order 5 cucumber sushi rolls all for himself so often that the sushi restaurant knows"
+                    " him by name.",
+    "unknown": "what about James?"
+})
+tree.add_node("Sam", [], pa, {
+    "getPreference": "Sam is one super smart and funny gal!",
+    "getKnowledge": "Sam was the secretary and in charge of documentation for the team who built me!"
+                    " Sam takes the number 8 bus and is the very first stop of the bus route, needless to say"
+                    " Sam knows the bus route even better than the bus drivers!",
+    "unknown": "what about Sam?"
+})
+tree.add_node("Jasper", [], pa, {
+    "getPreference": "Jasper is one smart cookie!",
+    "getKnowledge": "Jasper was one of the developers on the team that built me! Jasper is from Holland "
+                    "and sometimes brings his team members speculaas :)",
+    "unknown": "say what about Jasper?"
+})
+tree.add_node("Robby", [], pa, {
+    "getPreference": "Robby is my bro! It is because of him we aren't chatting out of the command line "
+                     "(not the ideal date experience) :)",
+    "getKnowledge": "Robby was one of the developers on the team that built me! Robby also knows the Cadillac"
+                    " Ranch Line dance, but has yet to have a chance to practice it. If you are going to the Corral "
+                    "be sure to hit him up!",
+    "unknown": "what about Robby?"
+})
+tree.add_node("Rachelle", [], pa, {
+    "getPreference": "Rachelle is one neat gal!",
+    "getKnowledge": "Rachelle was one of the developers on the team that built me! Rachelle pronounces GUI like "
+                    "gooey just to annoy her team members :)",
+    "unknown": "what about Rachelle?"
 })
 tree.add_node("date", [], pa, {
     "unknown": "Tell me about yourself."
@@ -205,8 +290,7 @@ tree.add_node("instrument", [], pa, {
     "unknown": "What about instruments?"
 })
 tree.add_node("genre", [], pa, {
-    "getPreference": "My favourite song is Hello by Adele (that's the song that got me through my last " +
-                     "break up with ChatBot Alice *cue sad boi playlist*",
+    "getPreference": "My favourite genre is Electroswing, we should make some music together",
     "getKnowledge": "Music is just a bunch of sound waves!",
     "getPastAction": "Back in my day I used to be a rock and roll star!",
     "unknown": "What about music genres?"
@@ -597,7 +681,7 @@ stack.append(pa)
 pa = n.get_child(pa, "feeling")
 
 tree.add_node("yikes", [], pa, {
-    "unknown": "Yikes."
+    "unknown": "BIG  Y I K E S."
 })
 tree.add_node("interested", [], pa, {
     "unknown": "I'm glad you're interested."
@@ -637,3 +721,4 @@ tree.add_node("current", [], pa, {
 })
 
 print("Personality loaded")
+
