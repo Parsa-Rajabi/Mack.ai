@@ -61,19 +61,19 @@ root_widget = Builder.load_string('''
             spacing: 10
             BoxLayout:
                 size_hint: None, None
-                size: 250, 500
+                size: root.width * 0.35, root.height - 100
                 canvas.before:
                     Color:
-                        rgba: 0,0,0,1
+                        rgba: 0,0,0,.75
                     BorderImage:
                         source: 'zelda.png'
                         pos: self.x - 1, self.y - 1
-                        size: 252, 502
+                        size: (root.width * 0.35)+2, root.height - 98
                     Color:
-                        rgba: .9,.9,.9,1
+                        rgba: .95,.95,.95,.9
                     Rectangle: 
                         pos: self.pos
-                        size: 250,500
+                        size: root.width * 0.35,root.height - 100
                 ScrollableLabel:
                     id: Mack_output
                     markup: True
@@ -85,16 +85,18 @@ root_widget = Builder.load_string('''
                 size_hint_y: .1
                 TextInput:
                     id: txt_input
-                    background_color: [1,1,1,1]
+                    background_color: [1,1,1,.95]
                     foreground_color: [0,0,0,1]
                     cursor_color: [0,0,0,1]
                     size_hint_x: .8
-                    multiline: False
+                    #multiline: False
                     write_tab: False
                     hint_text: "Insert Text Here"
                 Button:
                     id: btn
                     text: 'Send'
+                    font_size: 20
+                    bold: True
                     size_hint_x: .2
                     background_color: [.8, .8, .8, 1]
                     color: [1, 1, 1, 1]
