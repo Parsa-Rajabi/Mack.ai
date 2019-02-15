@@ -1,5 +1,3 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
-
-[b]User:[/b]   that's a yikes
-[b]Mack:[/b] BIG  Y I K E S. 
-
+[b]User:[/b]   what is your favourite activity
+[b]Mack:[/b] I like talking to you, for one ;) 
