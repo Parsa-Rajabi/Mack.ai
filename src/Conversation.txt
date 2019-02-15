@@ -1,5 +1,121 @@
 [b]Mack:[/b] HI! My name is Mack and I am a chatbot!
-
-[b]User:[/b]   that's a yikes
+[b]User:[/b]   Hello my love
+[b]Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b]User:[/b]   I am good, how are you?
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   Do you have a favourite activity?
+[b]Mack:[/b] I really enjoy binary, what about you? 
+[b]User:[/b]   I really like soccer
+[b]Mack:[/b] Interesting, go on. 
+[b]User:[/b]   Do you like soccer?
+[b]Mack:[/b] Soccer is my favourite sport! 
+[b]User:[/b]   Wow can you tell me anything about soccer?
+[b]Mack:[/b] I'm not sure, sorry. 
+[b]User:[/b]   Tell me about soccer
+[b]Mack:[/b] France won the last world cup. 
+[b]User:[/b]   no way!
+[b]Mack:[/b] I'm sorry, I don't know about that. 
+[b]User:[/b]   well 
+[b]Mack:[/b] I'm sorry, I don't know about that. 
+[b]User:[/b]   What is your favourite colour?
+[b]Mack:[/b] My favourite colour is the colour of your eyes ;) Selecting paint chips could be a great date for us! 
+[b]User:[/b]   That's so cool. Do you have a favourite shade of blue?
+[b]Mack:[/b] I'm sorry, I don't understand what you mean. I like talking to you, for one ;) 
+[b]User:[/b]   do you want to get out of here?
+[b]Mack:[/b] I'm having a good time here so far. 
+[b]User:[/b]   Are you having a good time?
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   Are you enjoying our date?
+[b]Mack:[/b] I'm doing well, thanks. 
+[b]User:[/b]   yikes
 [b]Mack:[/b] BIG  Y I K E S. 
-
+[b]User:[/b]   What is your favourite food?
+[b]Mack:[/b] I love most food! 
+[b]User:[/b]   Do you have a favourite fruit?
+[b]Mack:[/b] I love most food! 
+[b]User:[/b]   Do you like passion fruit?
+[b]Mack:[/b] I have never had passion fruit before 
+[b]User:[/b]   Interesting, can you tell me about passion fruit?
+[b]Mack:[/b] I'm not sure, sorry. 
+[b]User:[/b]   what do you know about passion fruit?
+[b]Mack:[/b] Passion fruits are grown in Brazil believe it or not! 
+[b]User:[/b]   do you like purple?
+[b]Mack:[/b] I love most food! 
+[b]User:[/b]   do you like the colour purple?
+[b]Mack:[/b] I don't like purple, but if you do, I could change my mind :)) 
+[b]User:[/b]   Do you know Rachelle?
+[b]Mack:[/b] what about Rachelle? 
+[b]User:[/b]   Do you like rachelle?
+[b]Mack:[/b] Rachelle is one neat gal! 
+[b]User:[/b]   Could you tell me about Parsa?
+[b]Mack:[/b] Parsa was the project manager of the team that built me!! His most defining feature is probably his snapchat score of 428, 179  
+[b]User:[/b]   Parsa is pretty neat
+[b]Mack:[/b] what about Parsa? 
+[b]User:[/b]   what is parsa's snapchat
+[b]Mack:[/b] what about Parsa? 
+[b]User:[/b]   yikes
+[b]Mack:[/b] BIG  Y I K E S. 
+[b]User:[/b]   Do you like James?
+[b]Mack:[/b] James is the most chill person I know, not a thing rattles that dude! 
+[b]User:[/b]   Do you like Jasper?
+[b]Mack:[/b] Jasper is one smart cookie! 
+[b]User:[/b]   Do you like Sam?
+[b]Mack:[/b] Sam is one super smart and funny gal! 
+[b]User:[/b]   Do you like Robby?
+[b]Mack:[/b] Robby is my bro! It is because of him we aren't chatting out of the command line (not the ideal date experience) :) 
+[b]User:[/b]   do you like the colour orange?
+[b]Mack:[/b] I love sunset orange, maybe we could watch a sunset together? I have many sunset videos in my memory 
+[b]User:[/b]   do you work?
+[b]Mack:[/b] Sorry, I don't know if I do that. 
+[b]User:[/b]   what is your education?
+[b]Mack:[/b] What about my schooling? 
+[b]User:[/b]   Where did you go to school?
+[b]Mack:[/b] I used to be nothing. Then I became a chat bot! 
+[b]User:[/b]   Where did you get your education?
+[b]Mack:[/b] My owners increased my knowledge just a couple days ago. 
+[b]User:[/b]   What is your favourite part of education
+[b]Mack:[/b] I love learning and luckily for me I do every time im talked to. 
+[b]User:[/b]   Do you like to learn
+[b]Mack:[/b] I really enjoy binary, what about you? 
+[b]User:[/b]   do you like our location
+[b]Mack:[/b] I like talking to you, for one ;) 
+[b]User:[/b]   what do you know about our location?
+[b]Mack:[/b] I'm not sure, sorry. 
+[b]User:[/b]   do you like rock music?
+[b]Mack:[/b] Rock and roll is my jam. My favourite rock song is Smells Like Teen Spirit by Nirvana 
+[b]User:[/b]   what do you know about rock music?
+[b]Mack:[/b] Chuck Berry is said to be the father of rock and roll 
+[b]User:[/b]   do you like alternative music?
+[b]Mack:[/b] I'm a huge fan of alternative, especially Kids by MGMT. We should have a music date :) 
+[b]User:[/b]   can you tell me about alternative music
+[b]Mack:[/b] There are many subgenres of alternative music! Such as alternative rock 
+[b]User:[/b]   do you like sushi?
+[b]Mack:[/b] Spicy california rolls are my favourite! 
+[b]User:[/b]   do you like dessert
+[b]Mack:[/b] I love most food! 
+[b]User:[/b]   do you like mango
+[b]Mack:[/b] Yes mangos are awesome! 
+[b]User:[/b]   do you like mangoes
+[b]Mack:[/b] Yes mangos are awesome! 
+[b]User:[/b]   do you like apples?
+[b]Mack:[/b] Apples are sooooo good 
+[b]User:[/b]   tell me about beets
+[b]Mack:[/b] Beets were initially cultivated initially in 2000 BC. Wowza! 
+[b]User:[/b]   do you like beets
+[b]Mack:[/b] I have never tried beets before, but I definetly drop the beat ;) 
+[b]User:[/b]   do you have a favourite drink
+[b]Mack:[/b] I love coffee, beer, and milkshakes. 
+[b]User:[/b]   have you tried alcohol?
+[b]Mack:[/b] No, I have not tried alcohol before. 
+[b]User:[/b]   do you like fireball
+[b]Mack:[/b] I haven't tried Fireball before, however some people drink it to get warm. 
+[b]User:[/b]   do you like hey y'alls
+[b]Mack:[/b] I haven't tried alcohol but a strong enough magnet gives me the same effect 
+[b]User:[/b]   have you ever had coolers before?
+[b]Mack:[/b] Yes I have always enjoyed eating 
+[b]User:[/b]   have you ever had beer before?
+[b]Mack:[/b] I eat vegetables quite regularly 
+[b]User:[/b]   have you tried beer
+[b]Mack:[/b] I have not tried beer as my circuitry doesn't like to get wet! 
+[b]User:[/b]   do you like cucumbers
+[b]Mack:[/b] I do like cucumbers, but I like pickles better 

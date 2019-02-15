@@ -117,7 +117,7 @@ tree.add_node("purple", [], pa, {
 # topic > people :
 pa = stack.pop()
 
-# topic > people : Mack, date, generic
+# topic > people : Mack, date, generic, Parsa, James, Sam, Robby, Jasper, Rachelle
 stack.append(pa)
 pa = pa.get_child("people")
 
@@ -273,6 +273,8 @@ tree.add_node("swimming", [], pa, {
     "unknown": "What about swimming?"
 })
 tree.add_node("coding", [], pa, {
+    "getPreference": "I love coding! It's my favourite hobby after converting to binary",
+    "getKnowledge": "you can code in many languages, I am coded in python",
     "unknown": "What about coding?"
 })
 
