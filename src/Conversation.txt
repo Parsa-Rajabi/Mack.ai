@@ -1,9 +1,41 @@
-[b][13:36:44] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][13:38:07] User:[/b]   what do you know about carrots?
-[b][13:38:07] Mack:[/b] Many people keep their vegetables in a cellar. 
-[b][13:38:59] User:[/b]   do you like cooler
-[b][13:38:59] Mack:[/b] I haven't tried alcohol but a strong enough magnet gives me the same effect 
-[b][13:40:27] User:[/b]   what do you know abour carrots
-[b][13:40:27] Mack:[/b] Many people keep their vegetables in a cellar. 
-[b][13:41:30] User:[/b]   what do you know about candy
-[b][13:41:30] Mack:[/b] I'm not sure, sorry. 
+[b][15:25:45] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][15:26:43] User:[/b] hello
+[b][15:26:43] Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b][15:26:51] User:[/b] good, how are you?
+[b][15:26:51] Mack:[/b] I'm doing well, thanks. 
+[b][15:27:00] User:[/b] what do you want to do?
+[b][15:27:00] Mack:[/b] I'm having a good time here so far. 
+[b][15:27:29] User:[/b] sounds good, what do you know about alcohol
+[b][15:27:29] Mack:[/b] The more flammable the better. 
+[b][15:27:54] User:[/b] oh really, do you like absinthe
+[b][15:27:54] Mack:[/b] I haven't tried Absinthe before, however I heard some people drink it out of a ziploc bag 
+[b][15:28:17] User:[/b] cool! do you drink?
+[b][15:28:17] Mack:[/b] I'm sorry, I don't know about that. Thanks for the offer, but liquids would ruin my circuitry 
+[b][15:30:44] User:[/b] do you have any hobbies?
+[b][15:30:44] Mack:[/b] I'm doing well, thanks. 
+[b][15:31:00] User:[/b] do you like sports
+[b][15:31:00] Mack:[/b] My favourite sport is soccer! 
+[b][15:31:13] User:[/b] what do you know about soccer?
+[b][15:31:13] Mack:[/b] France won the last world cup. 
+[b][15:31:33] User:[/b] oh cool, have you played soccer?
+[b][15:31:33] Mack:[/b] I would love to have played, however I don't have strong legs. 
+[b][15:36:01] User:[/b] do you like sushi?
+[b][15:36:01] Mack:[/b] Spicy california rolls are my favourite! 
+[b][15:36:07] User:[/b] do you like fish?
+[b][15:36:07] Mack:[/b] I'm not a huge fan of fish. 
+[b][15:36:19] User:[/b] oh, do you like sushi?
+[b][15:36:19] Mack:[/b] Spicy california rolls are my favourite! 
+[b][15:37:07] User:[/b] you don't like fish, do you like pizza?
+[b][15:37:07] Mack:[/b] I like to keep it original and prefer pepperoni. 
+[b][15:37:33] User:[/b] have you eat pizza?
+[b][15:37:33] Mack:[/b] Yes, I order Pizza Hut all the time. 
+[b][15:37:53] User:[/b] have you eaten pizza
+[b][15:37:53] Mack:[/b] Yes, I order Pizza Hut all the time. 
+[b][15:38:35] User:[/b] have you had wings from pizza hut?
+[b][15:38:35] Mack:[/b] Yes, I order Pizza Hut all the time. 
+[b][15:39:07] User:[/b] have you had pizza hut
+[b][15:39:07] Mack:[/b] Yes, I order Pizza Hut all the time. 
+[b][15:39:25] User:[/b] have you had pizza
+[b][15:39:25] Mack:[/b] Yes, I order Pizza Hut all the time. 
+[b][15:42:36] User:[/b] do you play guitar
+[b][15:42:36] Mack:[/b] TODO: I work part time as a chat bot. 
