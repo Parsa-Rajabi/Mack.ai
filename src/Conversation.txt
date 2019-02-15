@@ -1,45 +1,9 @@
-[b][11:12:44] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][11:13:08] User:[/b]   you like like cod? what do you know about cod? have you tried cod? have you eat cod?
-[b][11:13:08] Mack:[/b] P cod K cod PA cod PA cod 
-[b][11:14:13] User:[/b]   do you like candy? have you tried candy? have you eat candy? what do you know about candy
-[b][11:14:13] Mack:[/b] I love most food! Yes I have always enjoyed eating. Yes I have always enjoyed eating. I'm not sure, sorry. 
-[b][11:14:58] User:[/b]   do you like pie? have you tried pie? have you eat pie? what do you know about pie
-[b][11:14:58] Mack:[/b] One of my creators makes a mean apple pie! I eat pie all the time, apple is my favourite! I get an ice cream cake on my birthday every year. I'm not sure, sorry. 
-[b][11:15:19] User:[/b]   have you eat pie?
-[b][11:15:19] Mack:[/b] I get an ice cream cake on my birthday every year. 
-[b][11:16:33] User:[/b]   do you like ice cream? have you tried ice cream? have you eat ice cream? what do you know about ice cream?
-[b][11:16:33] Mack:[/b] P ice cream I get an ice cream cake on my birthday every year. I get an ice cream cake on my birthday every year. I'm not sure, sorry. 
-[b][11:17:56] User:[/b]   do you like lemon squares? what do you know about lemon squares? have you tried lemon squares? have you eat a lemon square?
-[b][11:17:56] Mack:[/b] Cam makes really good lemon squares! Some lemon squares with farm fresh eggs are orange. I had one of Cam's lemon squares just the other day?. I had one of Cam's lemon squares just the other day?. 
-[b][11:28:19] User:[/b]   do you like cake. have you tried cake? have you eat cake? what do you know about cake?
-[b][11:28:19] Mack:[/b] I love most food! Yes I have always enjoyed eating. Yes I have always enjoyed eating. I'm not sure, sorry. 
-[b][11:29:19] User:[/b]   do you like pudding? what do you know about pudding? have you eat pudding? have you tried pudding?
-[b][11:29:19] Mack:[/b] I really enjoy binary, what about you? I'm not sure, sorry. Yes I have always enjoyed eating. I might've done that once. 
-[b][11:30:22] User:[/b]   do you like cookies? have you tried cookies? have you eat cookies? what do you know about cookies?
-[b][11:30:22] Mack:[/b] I really enjoy binary, what about you? I might've done that once. Yes I have always enjoyed eating. I'm not sure, sorry. 
-[b][11:31:21] User:[/b]   do you like brownies? have you tried pudding? have you eat pudding? what do you know about pudding?
-[b][11:31:21] Mack:[/b] I love most food! I might've done that once. Yes I have always enjoyed eating. I'm not sure, sorry. 
-[b][11:32:06] User:[/b]   do you like chocolate? what do you know about chocolate? have you tried chocolate? have you eat chocolate?
-[b][11:32:06] Mack:[/b] I love most food! I'm not sure, sorry. Yes I have always enjoyed eating. Yes I have always enjoyed eating. 
-[b][11:33:25] User:[/b]   do you like cheese? have you tried cheese? what do you know about cheese? have you eat cheese?
-[b][11:33:25] Mack:[/b] I'm lactose intolerant, so you don't want to catch me eating cheese! Last time I had cheese I was in the washroom all night. Over 750 different cheeses are produced in Britain today. Last time I had cheese I was in the washroom all night. 
-[b][11:34:14] User:[/b]   do you like milk? have you tried milk? have you drank milk? what do you know about milk?
-[b][11:34:14] Mack:[/b] I like you, and I dislike Donald Trump Yes I have always enjoyed eating. I don't like liquids. I'm not sure, sorry. 
-[b][11:35:06] User:[/b]   do you like activia? what do you know about yogurt? have you eat yogurt? have you tried yogurt?
-[b][11:35:06] Mack:[/b] I really enjoy binary, what about you? I'm not sure, sorry. Yes I have always enjoyed eating. Yes I have always enjoyed eating. 
-[b][11:36:12] User:[/b]   do you like pizza? have you tried pizza? have you eat pizza? what do you know about pizza?
-[b][11:36:12] Mack:[/b] I like to keep it original and prefer pepperoni. Yes, I order Pizza Hut all the time. Yes, I order Pizza Hut all the time. Pizza was created in Naples, Italy. 
-[b][11:36:36] User:[/b]   do you like nachos?
-[b][11:36:36] Mack:[/b] I love nachos! 
-[b][11:36:56] User:[/b]   have you tried nachos? have you eat nachos?
-[b][11:36:56] Mack:[/b] Yes, I can eat nachos for three by myself. Yes, I can eat nachos for three by myself. 
-[b][11:39:12] User:[/b]   do you like fries? have you tried fries? have you eat fries?
-[b][11:39:12] Mack:[/b] I like yam fries the most. I had fries from McDonald's the other day and they were very salty! I had fries from McDonald's the other day and they were very salty! 
-[b][11:39:57] User:[/b]   do you like wings? have you tried wings? have you eat wings?
-[b][11:39:57] Mack:[/b] I love most food! Yes I have always enjoyed eating. Yes I have always enjoyed eating. 
-[b][11:41:28] User:[/b]   hey
-[b][11:41:28] Mack:[/b] Hi there! I'm Mack. How are you today? 
-[b][11:41:39] User:[/b]   do you like burgers?
-[b][11:41:39] Mack:[/b] I don't eat beef but I enjoy a good beyond burger. 
-[b][11:42:01] User:[/b]   have you tried burgers? have you eat a burger
-[b][11:42:01] Mack:[/b] I got a beyond burger in the UNC just a couple weeks ago. I got a beyond burger in the UNC just a couple weeks ago. 
+[b][13:36:44] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][13:38:07] User:[/b]   what do you know about carrots?
+[b][13:38:07] Mack:[/b] Many people keep their vegetables in a cellar. 
+[b][13:38:59] User:[/b]   do you like cooler
+[b][13:38:59] Mack:[/b] I haven't tried alcohol but a strong enough magnet gives me the same effect 
+[b][13:40:27] User:[/b]   what do you know abour carrots
+[b][13:40:27] Mack:[/b] Many people keep their vegetables in a cellar. 
+[b][13:41:30] User:[/b]   what do you know about candy
+[b][13:41:30] Mack:[/b] I'm not sure, sorry. 
