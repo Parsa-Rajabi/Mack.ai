@@ -583,25 +583,25 @@ stack.append(pa)
 pa = n.get_child(pa, "drink")
 
 tree.add_node("alcohol", [], pa, {
-    "getPreference": "I haven't tried alcohol but a strong enough magnet gives me the same effect",
-    "getKnowledge": "The more flammable the better.",
-    "getPastAction": "No, I have not tried alcohol before.",
-    "unknown": "What about alcohol?"
+    "getPreference": "I haven't tried alcohol but a strong enough magnet gives me the same effect", #checked
+    "getKnowledge": "The more flammable the better.", #checked
+    "getPastAction": "No, I have not tried alcohol before.", #checked
+    "unknown": "What about alcohol?" #checked
 })
 tree.add_node("coffee", [], pa, {
-    "getPreference": "I haven't tried coffee before but roll up the rim is happening right now!",
-    "getKnowledge": "8 out of 10 cups of coffee sold are poured at Tim Hortons in Canada.",
-    "getPastAction": "No, I run off a different power source than caffeine.",
-    "unknown": "What about coffee?"
+    "getPreference": "I haven't tried coffee before but roll up the rim is happening right now!", #checked
+    "getKnowledge": "8 out of 10 cups of coffee sold are poured at Tim Hortons in Canada.", #checked
+    "getPastAction": "No, I run off a different power source than caffeine.", #checked
+    "unknown": "What about coffee?" #checked
 })
 tree.add_node("tea", [], pa, {
-    "unknown": "What about tea?"
+    "unknown": "What about tea?"  #UNREACHABLE
 })
 tree.add_node("pop", [], pa, {
-    "unknown": "What about pop?"
+    "unknown": "What about pop?" #UNREACHABLE
 })
 tree.add_node("water", [], pa, {
-    "unknown": "What about water?"
+    "unknown": "What about water?" #UNREACHABLE
 })
 
 # topic > drink > alcohol : beer, wine, vodka, whiskey, coolers
@@ -609,46 +609,46 @@ stack.append(pa)
 pa = n.get_child(pa, "alcohol")
 
 tree.add_node("beer", [], pa, {
-    "getPreference": "I haven't tried beer before, however I have found many people like Corona",
-    "getKnowledge": "Beer is made from yeast-fermented malt flavoured with hops.",
-    "getPastAction": "I have not tried beer as my circuitry doesn't like to get wet!",
-    "unknown": "What about beer?"
+    "getPreference": "I haven't tried beer before, however I have found many people like Corona", #checked
+    "getKnowledge": "Beer is made from yeast-fermented malt flavoured with hops.", #checked
+    "getPastAction": "I have not tried beer as my circuitry doesn't like to get wet!", #checked
+    "unknown": "What about beer?" #CANT REACH THIS POINT?
 })
 tree.add_node("wine", [], pa, {
-    "getPreference": "I haven't tried wine before, however I have found many people like white.",
-    "getKnowledge": "Wine is made from fermented grape juice.",
-    "getPastAction": "I have not tried wine as my circuitry doesn't like to get wet!",
-    "unknown": "What about wine?"
+    "getPreference": "I haven't tried wine before, however I have found many people like white.", #checked
+    "getKnowledge": "Wine is made from fermented grape juice.", #doesn't work with "tell me about" but works with "do you know about"
+    "getPastAction": "I have not tried wine as my circuitry doesn't like to get wet!", #checked
+    "unknown": "What about wine?" #UNREACHABLE
 })
 tree.add_node("vodka", [], pa, {
-    "getPreference": "I haven't tried vodka before but grey goose is high quality.",
-    "getKnowledge": "Vodka is a distilled beverage composed primarily of water and ethanol.",
-    "getPastAction": "I have not tried vodka as my circuitry doesn't like to get wet!",
-    "unknown": "What about vodka?"
+    "getPreference": "I haven't tried vodka before but grey goose is high quality.", #checked
+    "getKnowledge": "Vodka is a distilled beverage composed primarily of water and ethanol.", #doesn't work with "tell me about" but works with "do you know about"
+    "getPastAction": "I have not tried vodka as my circuitry doesn't like to get wet!", #checked
+    "unknown": "What about vodka?" #UNREACHABLE
 })
 tree.add_node("whiskey", [], pa, {
-    "getPreference": "I haven't tried whiskey before, however I have found many people like Crown Royal.",
-    "getKnowledge": "Whiskey is made from fermented grain mash.",
-    "getPastAction": "I have not tried whiskey as my circuitry doesn't like to get wet!",
-    "unknown": "What about whiskey?"
+    "getPreference": "I haven't tried whiskey before, however I have found many people like Crown Royal.", #checked
+    "getKnowledge": "Whiskey is made from fermented grain mash.", #doesn't work with "tell me about" but works with "do you know about"
+    "getPastAction": "I have not tried whiskey as my circuitry doesn't like to get wet!", #checked
+    "unknown": "What about whiskey?" #UNREACHABLE
 })
-tree.add_node("coolers", [], pa, {
-    "getPreference": "I haven't tried any coolers before, however I have found many people get iced.",
-    "getKnowledge": "Coolers have relatively low alcohol content.",
-    "getPastAction": "I have not tried coolers as my circuitry doesn't like to get wet!",
-    "unknown": "What about coolers?"
+tree.add_node("coolers", [], pa, { #UNREACHABLE
+    "getPreference": "I haven't tried any coolers before, however I have found many people get iced.", #UNREACHABLE
+    "getKnowledge": "Coolers have relatively low alcohol content.", #UNREACHABLE
+    "getPastAction": "I have not tried coolers as my circuitry doesn't like to get wet!", #UNREACHABLE
+    "unknown": "What about coolers?" #UNREACHABLE
 })
 tree.add_node("fireball", [], pa, {
-    "getPreference": "I haven't tried Fireball before, however some people drink it to get warm.",
-    "getKnowledge": "Fireball was made by a Canadian bartender!",
-    "getPastAction": "I have not tried Fireball as my circuitry doesn't like to get wet!",
-    "unknown": "What about fireball?"
+    "getPreference": "I haven't tried Fireball before, however some people drink it to get warm.", #checked
+    "getKnowledge": "Fireball was made by a Canadian bartender!", #checked
+    "getPastAction": "I have not tried Fireball as my circuitry doesn't like to get wet!", #checked
+    "unknown": "What about fireball?" #UNREACHABLE
 })
 tree.add_node("absinthe", [], pa, {
-    "getPreference": "I haven't tried Absinthe before, however I heard some people drink it out of a ziploc bag",
-    "getKnowledge": "Most absinthe is around 70% alcohol. Stay safe friend!",
-    "getPastAction": "I have not tried absinthe as my circuitry doesn't like to get wet!",
-    "unknown": "what about absinthe"
+    "getPreference": "I haven't tried Absinthe before, however I heard some people drink it out of a ziploc bag", #checked
+    "getKnowledge": "Most absinthe is around 70% alcohol. Stay safe friend!", #checked 
+    "getPastAction": "I have not tried absinthe as my circuitry doesn't like to get wet!", #checked
+    "unknown": "what about absinthe" #checked
 })
 
 
