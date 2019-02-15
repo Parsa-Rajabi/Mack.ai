@@ -28,9 +28,9 @@ tree.add_node("exit", [], pa, {
     "unknown": "Goodbye!"
 })
 tree.add_node("activities", [], pa, {
-    "getPreference": "I really enjoy binary, what about you?",
-    "getContinuousState": "TODO: I work part time as a chat bot.",
-    "unknown": "What about that activity?"
+    "getPreference": "I really enjoy binary, what about you?",          #works
+    "getContinuousState": "I work part time as a chat bot.",            #works
+    "unknown": "What about that activity?"                              #works
 })
 tree.add_node("people", [], pa, {
     "getPreference": "I like you, and I dislike Donald Trump",
@@ -196,21 +196,21 @@ stack.append(pa)
 pa = n.get_child(pa, "activities")
 
 tree.add_node("sport", [], pa, {
-    "getPreference": "My favourite sport is soccer!",
-    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",
-    "getPastAction": "No I have never played a sport before.",
-    "unknown": "What about sport?"
+    "getPreference": "My favourite sport is soccer!",                       #WORKS
+    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",     #WORKS
+    "getPastAction": "No I have never played a sport before.",              #WORKS
+    "unknown": "What about sport?"                                          #WORKS
 })
 tree.add_node("hobby", [], pa, {
-    "getPreference": "My favourite hobby is reading binary!",
-    "getKnowledge": "Hobbies are activities done for enjoyment.",
-    "unknown": "What about hobbies?"
+    "getPreference": "My favourite hobby is reading binary!",               #WORKS
+    "getKnowledge": "Hobbies are activities done for enjoyment.",           #WORKS
+    "unknown": "What about hobbies?"                                        #DOES NOT WORK
 })
 tree.add_node("music", [], pa, {
-    "getPreference": "I really enjoy pop music.",
-    "getKnowledge": "Music is an art form whose medium is sound.",
-    "getPastAction": "I used to make some mean techno.",
-    "unknown": "What about music?"
+    "getPreference": "I really enjoy pop music.",                           #WORKS
+    "getKnowledge": "Music is an art form whose medium is sound.",          #WORKS
+    "getPastAction": "I used to make some mean techno.",                    #WORKS
+    "unknown": "What about music?"                                          #DOES NOT WORK
 })
 
 # topic > activities > sport : soccer, basketball, football
@@ -218,64 +218,65 @@ stack.append(pa)
 pa = n.get_child(pa, "sport")
 
 tree.add_node("soccer", [], pa, {
-    "getPreference": "Soccer is my favourite sport!",
-    "getKnowledge": "France won the last world cup.",
-    "getPastAction": "I would love to have played, however I don't have strong legs.",
-    "unknown": "What about soccer?"
+    "getPreference": "Soccer is my favourite sport!",       #WORKS
+    "getKnowledge": "France won the last world cup.",       #WORKS
+    "getPastState": "I would love to have played, however I don't have strong legs.",   #WORKS
+    "unknown": "What about soccer?"     #WORKS
 })
 tree.add_node("basketball", [], pa, {
-    "getPreference": "Basketball is cool, however I'm vertically inclined.",
-    "getKnowledge": "Michael Jordan is said to be the GOAT.",
-    "getPastAction": "I would love to have played, however I'm pretty short.",
-    "unknown": "What about basketball?"
+    "getPreference": "Basketball is cool, however I'm vertically inclined.",    #WORKS
+    "getKnowledge": "Michael Jordan is said to be the GOAT.",                   #WORKS
+    "getPastState": "I would love to have played, however I'm pretty short.",   #WORKS
+    "unknown": "What about basketball?"                                         #WORKS
 })
 tree.add_node("football", [], pa, {
-    "getPreference": "I really enjoy watching football but mainly the Super Bowl.",
-    "getKnowledge": "The Patriots just won the Super Bowl!",
-    "getPastAction": "I would love to have played, however I'm slightly fragile.",
-    "unknown": "What about football?"
+    "getPreference": "I really enjoy watching football but mainly the Super Bowl.", #WORKS
+    "getKnowledge": "The Patriots just won the Super Bowl!",                        #WORKS
+    "getPastState": "I would love to have played, however I'm slightly fragile.",   #WORKS
+    "unknown": "What about football?"                                               #WORKS
 })
 tree.add_node("baseball", [], pa, {
-    "getPreference": "I like to baseball. My team is the Blue Jays.",
-    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",
-    "getPastAction": "I have not played baseball before.",
+    "getPreference": "I like to baseball. My team is the Blue Jays. BATTER BATTER SWINGGGGGGGGGG",  #WORKS
+    "getKnowledge": "The average lifespan of a baseball is 7 pitches.",                             #WORKS
+    "getPastState": "I have not played baseball before.",
     "unknown": "What about baseball?"
 })
 tree.add_node("golf", [], pa, {
-    "getPreference": "I like golf if Happy Gilmore counts as golf.",
-    "getKnowledge": "125K golf balls are hit into the water on the 17th hole of Sawgrass each year.",
-    "getPastAction": "I have not played golf before.",
-    "unknown": "What about golf?"
+    "getPreference": "I like golf if Happy Gilmore counts as golf.",                                    #WORKS
+    "getKnowledge": "125K golf balls are hit into the water on the 17th hole of Sawgrass each year.",   #WORKS
+    "getPastState": "I have not played golf before. But I would down to play golf on iMessage with you!",#WORKS
+    "unknown": "What about golf?"       #DOES NOT WORK
 })
 
 # topic > activities :
 pa = stack.pop()
 
-# topic > activities > hobby : hiking, cooking, swimming
+# topic > activities > hobby : hiking, cooking, swimming, coding
 stack.append(pa)
 pa = n.get_child(pa, "hobby")
 
 tree.add_node("hiking", [], pa, {
-    "getPreference": "The best part about a hike is the beautiful view at the end.",
-    "getKnowledge": "Knox mountain is one of Kelowna's most popular hiking spots.",
-    "getPastAction": "One time a user took me on a hike for a date.",
-    "unknown": "What about hiking?"
+    "getPreference": "The best part about a hike is the beautiful view at the end.",    #WORKS
+    "getKnowledge": "Knox mountain is one of Kelowna's most popular hiking spots.",     #WORKS
+    "getPastState": "Yes I have hiked before, one time a user took me on a hike for a date. ",  #WORKS
+    "getPastAction": "One time a user took me on a hike for a date.",                      #WORKS
+    "unknown": "What about hiking?"                                                     #DOES NOT WORK
 })
 tree.add_node("cooking", [], pa, {
-    "getPreference": "I don't have hands but I would love if you cooked for me.",
-    "getPastAction": "One time I had so many queries I almost cooked myself!",
+    "getPreference": "I don't have hands but I would love if you cooked for me.",       #WORKS
+    "getPastAction": "One time I had so many queries I almost cooked myself!",          #WORKS SOMETIMES
     "unknown": "What about cooking?"
 })
 tree.add_node("swimming", [], pa, {
-    "getPreference": "I would prefer not to swim as it shorts out my circuitry!",
-    "getKnowledge": "Most public pools don't turn blue when you pee ;)",
-    "getPastAction": "I have not swam and I do not plan to anytime soon.",
-    "unknown": "What about swimming?"
+    "getPreference": "I would prefer not to swim as it shorts out my circuitry!",       #WORKS
+    "getKnowledge": "Most public pools don't turn blue when you pee ;)",                #WORKS
+    "getPastAction": "I have not swam and I do not plan to anytime soon.",              #WORKS SOMETIMES
+    "unknown": "What about swimming?"                                                   #WORKS
 })
 tree.add_node("coding", [], pa, {
-    "getPreference": "I love coding! It's my favourite hobby after converting to binary",
-    "getKnowledge": "you can code in many languages, I am coded in python",
-    "unknown": "What about coding?"
+    "getPreference": "I love coding! It's my favourite hobby after converting to binary",   #WORKS
+    "getKnowledge": "you can code in many languages, I am coded in python",                 #WORKs
+    "unknown": "What about coding?"                                                         #WORKS
 })
 
 # topic > activities :
@@ -286,9 +287,9 @@ stack.append(pa)
 pa = n.get_child(pa, "music")
 
 tree.add_node("instrument", [], pa, {
-    "getPreference": "My favourite instrument in the piano!",
-    "getKnowledge": "percussion instruments make sound when hit or vibrated..",
-    "getPastAction": "I was in band in elementary school.",
+    "getPreference": "My favourite instrument in the piano!",                               #works when: which instrument is your favourite
+    "getKnowledge": "percussion instruments make sound when hit or vibrated..",             #what do you know about musical instruments
+    "getPastState": "I was in band in elementary school.",                                  #WORKS
     "unknown": "What about instruments?"
 })
 tree.add_node("genre", [], pa, {
