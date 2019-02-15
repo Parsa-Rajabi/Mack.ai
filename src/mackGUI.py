@@ -6,7 +6,7 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import re
-import time
+import datetime
 
 from kivy.app import App
 from kivy.uix.scrollview import ScrollView
@@ -22,6 +22,8 @@ from wit import Wit
 access_token = 'CDNAWIU4OA5JUBDQ3JESSC6AVZWRTDVR'
 client = Wit(access_token=access_token)
 
+def time_now():
+    return "[" + datetime.datetime.now().strftime("%H:%M:%S") + "]"
 
 #set specifics for the stuff in the gui
 root_widget = Builder.load_string('''
@@ -126,7 +128,7 @@ class ChatBot(App):
         Window.bind(on_key_down=self._on_keyboard_down)
         Window.bind(on_key_up=self._on_keyboard_up)
         with open('Conversation.txt', 'w') as f:
-            f.write('[b]Mack:[/b] HI! My name is Mack and I am a chatbot!' + '\n')
+            f.write('[b]' + time_now() + ' Mack:[/b] HI! My name is Mack and I am a chatbot!' + '\n')
             f.close()
         with open('Conversation.txt', 'r') as f:
             contents = f.read()
@@ -163,8 +165,8 @@ class ChatBot(App):
                             if intent[0]['value'] == "exit":
                                 app.get_running_app().stop()
                 with open('Conversation.txt', 'a') as f:
-                    f.write('[b]User:[/b] ' + '  ' + input + '\n')
-                    f.write('[b]Mack:[/b]' + str(full_reply) + '\n')
+                    f.write('[b]' + time_now() + ' User:[/b] ' + '  ' + input + '\n')
+                    f.write('[b]' + time_now() + ' Mack:[/b]' + str(full_reply) + '\n')
                     f.close()
         except:
                 pass
