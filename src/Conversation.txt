@@ -1,3 +1,9 @@
-[b][15:25:21] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][15:25:28] User:[/b]   have you ever played a musical instrument
-[b][15:25:28] Mack:[/b] I was in band in elementary school. 
+[b][13:36:44] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][13:38:07] User:[/b]   what do you know about carrots?
+[b][13:38:07] Mack:[/b] Many people keep their vegetables in a cellar. 
+[b][13:38:59] User:[/b]   do you like cooler
+[b][13:38:59] Mack:[/b] I haven't tried alcohol but a strong enough magnet gives me the same effect 
+[b][13:40:27] User:[/b]   what do you know abour carrots
+[b][13:40:27] Mack:[/b] Many people keep their vegetables in a cellar. 
+[b][13:41:30] User:[/b]   what do you know about candy
+[b][13:41:30] Mack:[/b] I'm not sure, sorry. 
