@@ -1,31 +1,5 @@
-[b][15:02:41]Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][15:03:06]User:[/b]   Hi mack!
-[b][15:03:06]Mack:[/b] Hi there! I'm Mack. How are you today? 
-[b][15:03:17]User:[/b]   I'm good thanks
-[b][15:03:17]Mack:[/b] Interesting, go on. 
-[b][15:03:23]User:[/b]   What do you do?
-[b][15:03:23]Mack:[/b] I like talking to you, for one ;) 
-[b][15:03:31]User:[/b]   What do you like to eat?
-[b][15:03:31]Mack:[/b] I love most food! 
-[b][15:03:38]User:[/b]   Do you like wine?
-[b][15:03:38]Mack:[/b] I haven't tried wine before, however I have found many people like white. 
-[b][15:03:45]User:[/b]   White wine is good
-[b][15:03:45]Mack:[/b] Interesting, go on. 
-[b][15:03:55]User:[/b]   It tastes like apple juice sometimes
-[b][15:03:55]Mack:[/b] I'm sorry, I don't know that food. 
-[b][15:04:14]User:[/b]   Thats ok. Do you like pie?
-[b][15:04:14]Mack:[/b] I'm sorry, I don't know about that. One of my creators makes a mean apple pie! 
-[b][15:04:36]User:[/b]   Interesting
-[b][15:04:36]Mack:[/b] Interesting, go on. 
-[b][15:05:07]User:[/b]   Do you like music?
-[b][15:05:07]Mack:[/b] I really enjoy pop music. 
-[b][15:05:22]User:[/b]   I agree!
-[b][15:05:22]Mack:[/b] I'm sorry, I don't know about that. 
-[b][15:06:06]User:[/b]   Do you like cookies?
-[b][15:06:06]Mack:[/b] I really enjoy binary, what about you? 
-[b][15:06:17]User:[/b]   I enjoy binary too
-[b][15:06:17]Mack:[/b] I'm sorry, I don't know about that. 
-[b][15:06:28]User:[/b]   That's okay
-[b][15:06:28]Mack:[/b] I'm sorry, I don't know about that. 
-[b][15:06:54]User:[/b]   good bye
-[b][15:06:54]Mack:[/b] Buh-Bye! See you next time! :) 
+
+[b]Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b]User:[/b]   what is your favourite activity
+[b]Mack:[/b] I like talking to you, for one ;) 
+

@@ -54,7 +54,7 @@ root_widget = Builder.load_string('''
             Rectangle: 
                 pos: self.pos
                 size: self.size
-                source: '../parsa.jpg'
+                source: '../Mack.jpg'
         
         #Conversation Box
         BoxLayout:
