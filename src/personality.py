@@ -33,8 +33,8 @@ tree.add_node("activities", [], pa, {
     "unknown": "What about that activity?"
 })
 tree.add_node("people", [], pa, {
-    "getPreference": "I like you, and I dislike Donald Trump",
-    "unknown": "I'm sorry, I don't think I know that person."
+    "getPreference": "I like you, and I dislike Donald Trump", #checked
+    "unknown": "I'm sorry, I don't think I know that person." #CANT BE REACHED!!!
 })
 tree.add_node("food", [], pa, {
     "getPreference": "I love most food!",
@@ -122,51 +122,51 @@ stack.append(pa)
 pa = pa.get_child("people")
 
 tree.add_node("Mack", [], pa, {
-    "getPreference": "I think I'm pretty darn cool!",
-    "getKnowledge": "I am a Chatbot created as a COSC 310 project at UBCO!",
-    "getCreator": "I'm sorry but that's much too personal",
-    "getSex": "chatbots don't have genders silly!",
-    "unknown": "What about me?"
+    "getPreference": "I think I'm pretty darn cool!", #checked
+    "getKnowledge": "I am a Chatbot created as a COSC 310 project at UBCO!", #checked
+    "getCreator": "I'm sorry but that's much too personal", #CANT BE REACHED!
+    "getSex": "chatbots don't have genders silly!", #CANT BE REACHED!
+    "unknown": "What about me?" #CANT BE REACHED!!!
 })
 tree.add_node("Parsa", [], pa, {
-    "getPreference": "Parsa is a pretty swell dude!",
+    "getPreference": "Parsa is a pretty swell dude!", #checked
     "getKnowledge": "Parsa was the project manager of the team that built me!! His most defining "
-                    "feature is probably his snapchat score of 428, 179 ",
-    "unknown": "what about Parsa?"
+                    "feature is probably his snapchat score of 428, 179 ", #checked
+    "unknown": "what about Parsa?" #checked
 })
 tree.add_node("James", [], pa, {
     "getPreference": "James is the most chill person I know, not a thing rattles that dude!",
     "getKnowledge": "James was the test lead of the team that built me!! "
                     "James will order 5 cucumber sushi rolls all for himself so often that the sushi restaurant knows"
                     " him by name.",
-    "unknown": "what about James?"
+    "unknown": "what about James?" #CANT BE REACHED!!!
 })
 tree.add_node("Sam", [], pa, {
-    "getPreference": "Sam is one super smart and funny gal!",
-    "getKnowledge": "Sam was the secretary and in charge of documentation for the team who built me!"
+    "getPreference": "Sam is one super smart and funny gal!",  #checked
+    "getKnowledge": "Sam was the secretary and in charge of documentation for the team who built me!" #checked
                     " Sam takes the number 8 bus and is the very first stop of the bus route, needless to say"
                     " Sam knows the bus route even better than the bus drivers!",
-    "unknown": "what about Sam?"
+    "unknown": "what about Sam?" #CANT BE REACHED!!!
 })
 tree.add_node("Jasper", [], pa, {
-    "getPreference": "Jasper is one smart cookie!",
-    "getKnowledge": "Jasper was one of the developers on the team that built me! Jasper is from Holland "
+    "getPreference": "Jasper is one smart cookie!", #checked
+    "getKnowledge": "Jasper was one of the developers on the team that built me! Jasper is from Holland " #checked
                     "and sometimes brings his team members speculaas :)",
-    "unknown": "say what about Jasper?"
+    "unknown": "say what about Jasper?" #CANT BE REACHED!!!
 })
 tree.add_node("Robby", [], pa, {
-    "getPreference": "Robby is my bro! It is because of him we aren't chatting out of the command line "
+    "getPreference": "Robby is my bro! It is because of him we aren't chatting out of the command line " #checked
                      "(not the ideal date experience) :)",
-    "getKnowledge": "Robby was one of the developers on the team that built me! Robby also knows the Cadillac"
+    "getKnowledge": "Robby was one of the developers on the team that built me! Robby also knows the Cadillac" #checked
                     " Ranch Line dance, but has yet to have a chance to practice it. If you are going to the Corral "
                     "be sure to hit him up!",
-    "unknown": "what about Robby?"
+    "unknown": "what about Robby?"  #CANT BE REACHED!!!
 })
 tree.add_node("Rachelle", [], pa, {
-    "getPreference": "Rachelle is one neat gal!",
+    "getPreference": "Rachelle is one neat gal!", #checked
     "getKnowledge": "Rachelle was one of the developers on the team that built me! Rachelle pronounces GUI like "
-                    "gooey just to annoy her team members :)",
-    "unknown": "what about Rachelle?"
+                    "gooey just to annoy her team members :)", #checked
+    "unknown": "what about Rachelle?" #checked
 })
 tree.add_node("date", [], pa, {
     "unknown": "Tell me about yourself."
