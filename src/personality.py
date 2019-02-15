@@ -38,7 +38,7 @@ tree.add_node("people", [], pa, {
 })
 tree.add_node("food", [], pa, {
     "getPreference": "I love most food!",
-    "getPastAction": "Yes I have always enjoyed eating",
+    "getPastAction": "Yes I have always enjoyed eating.",
     "unknown": "I'm sorry, I don't know that food."
 })
 tree.add_node("drink", [], pa, {
@@ -348,38 +348,44 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "food")
 
-tree.add_node("fish", [], pa, {
+tree.add_node("fish", [], pa, { #completely working
     "getPreference": "I'm not a huge fan of fish.",
     "unknown": "What about fish?"
 })
-tree.add_node("spicy", [], pa, {
+tree.add_node("spicy", [], pa, { #completely working
     "getPreference": "The spicier the better!",
     "getKnowledge": "The Carolina Reaper is the spiciest pepper on earth!",
     "getPastAction": "I put Franks on everything but my fan isn't to fond of it.",
     "unknown": "What about spicy food?"
 })
-tree.add_node("dessert", [], pa, {
+tree.add_node("dessert", [], pa, { #completely working
     "getPreference": "I love dessert!",
     "getKnowledge": "Chocolate chips were invented after chocolate chip cookies!",
     "getPastAction": "I get an ice cream cake on my birthday every year.",
     "unknown": "What about dessert?"
 })
-tree.add_node("dairy", [], pa, {
+tree.add_node("dairy", [], pa, { #completely working
     "getPreference": "I'm lactose intolerant!",
     "getKnowledge": "Dairy is a great source for calcium!",
     "getPastAction": "I used to have dairy until I realized I'm lactose intolerant.",
     "unknown": "What about dairy?"
 })
-tree.add_node("fastfood", [], pa, {
+tree.add_node("fastfood", [], pa, { #need to talk to wit
+    "getPreference": "P fastfood",
+    "getKnowledge": "K fastfood",
+    "getPastAction": "PA fastfood",
     "unknown": "What about fast food?"
 })
-tree.add_node("fruit", [], pa, {
+tree.add_node("fruit", [], pa, { #need to talk to wit (understands its food but no options)
+    "getPreference": "P fruit",
+    "getKnowledge": "K fruit",
+    "getPastAction": "PA fruit",
     "unknown": "What about fruit?"
 })
-tree.add_node("vegetables", [], pa, {
-    "getPreference": "Yes I like vegetables, they keep my hardware nice and strong",
-    "getKnowledge": "Many people keep their vegetables in a cellar",
-    "getPastAction": "I eat vegetables quite regularly",
+tree.add_node("vegetables", [], pa, { #completely working
+    "getPreference": "Yes I like vegetables, they keep my hardware nice and strong.",
+    "getKnowledge": "Many people keep their vegetables in a cellar.",
+    "getPastAction": "I eat vegetables quite regularly.",
     "unknown": "What about vegetables?"
 })
 
@@ -387,30 +393,30 @@ tree.add_node("vegetables", [], pa, {
 stack.append(pa)
 pa = n.get_child(pa, "fruit")
 
-tree.add_node("apple", [], pa, {
-    "getPreference": "Apples are sooooo good",
+tree.add_node("apple", [], pa, { #completely working
+    "getPreference": "Apples are sooooo good.",
     "getKnowledge": "Apple's can be red or green!!!",
-    "getPastAction": "I eat apples everyday to keep the doctor away"
+    "getPastAction": "I eat apples everyday to keep the doctor away."
 })
-tree.add_node("passion fruit", [], pa, {
-    "getPreference": "I have never had passion fruit before",
+tree.add_node("passion fruit", [], pa, { #completely working
+    "getPreference": "I have never had passion fruit before.",
     "getKnowledge": "Passion fruits are grown in Brazil believe it or not!",
     "getPastAction": "No I have never had passion fruit before, I guess I am lacking passion :(",
     "unknown": "what about passion fruit?"
 })
-tree.add_node("oranges", [], pa, {
-    "getPreference": "I love oranges, especially Christmas oranges",
-    "getKnowledge": "Orange you glad I didn't say banana is a great joke",
+tree.add_node("oranges", [], pa, { #completely working
+    "getPreference": "I love oranges, especially Christmas oranges.",
+    "getKnowledge": "Orange you glad I didn't say banana is a great joke.",
     "getPastAction": "Yes I have enjoyed oranges in many forms including juice!",
     "unknown": "Can you expand more about oranges..."
 })
-tree.add_node("mango", [], pa, {
+tree.add_node("mango", [], pa, { #completely working
     "getPreference": "Yes mangos are awesome!",
-    "getKnowledge": "more fresh mangoes are eaten around the world per day than any other fruit",
-    "getPastAction": "yes I eat mangoes quite often, both dry and fresh",
+    "getKnowledge": "more fresh mangoes are eaten around the world per day than any other fruit.",
+    "getPastAction": "yes I eat mangoes quite often, both dry and fresh.",
     "unknown": "can you tell me more about mangoes?"
 })
-tree.add_node("bananas", [], pa, {
+tree.add_node("bananas", [], pa, { #completely working
     "getPreference": "I do like bananas, we should make banana bread ;)",
     "getKnowledge": "bananas are very high in potassium!",
     "getPastAction": "I eat bananas every morning!",
@@ -424,34 +430,34 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "vegetables")
 
-tree.add_node("carrots", [], pa, {
+tree.add_node("carrots", [], pa, { #completely working what do you know about carrots?(doesn't work) tell me about carrots?(works)
     "getPreference": "Carrots are the best!",
-    "getKnowledge": "Little known fact, carrots don't give you lazor vision",
-    "getPastAction": "Momma chatbot used to make carrot cake all of the time",
+    "getKnowledge": "Little known fact, carrots don't give you lazer vision.",
+    "getPastAction": "Momma chatbot used to make carrot cake all of the time.",
     "unknown": "What about carrots?"
 })
-tree.add_node("beets", [], pa, {
+tree.add_node("beets", [], pa, { #completely working
     "getPreference": "I have never tried beets before, but I definetly drop the beat ;)",
     "getKnowledge": "Beets were initially cultivated initially in 2000 BC. Wowza!",
     "getPastAction": "I haven't ever tried beets, but maybe we should try them sometime :))",
     "unknown": "What about beets?"
 })
-tree.add_node("broccoli", [], pa, {
-    "getPreference": "I like broccoli, especially cooked in a stirfry",
+tree.add_node("broccoli", [], pa, { #completely working
+    "getPreference": "I like broccoli, especially cooked in a stir fry.",
     "getKnowledge": "Broccoli has an impressive nutritional profile. Healthiest people are the most attractive ;)",
-    "getPastAction": "I enjoy a head of broccoli quite regulary",
+    "getPastAction": "I enjoy a head of broccoli quite regularly.",
     "unknown": "can you tell me more about broccoli?"
 })
-tree.add_node("cauliflower", [], pa, {
-    "getPreference": "I do enjoy cauliflower",
-    "getKnowledge": "Cauliflower is often used as a substitute for potatoes and rice",
-    "getPastAction": "I have always enjoyed cauliflower since I was young wee bot",
+tree.add_node("cauliflower", [], pa, { #completely working
+    "getPreference": "I do enjoy cauliflower.",
+    "getKnowledge": "Cauliflower is often used as a substitute for potatoes and rice.",
+    "getPastAction": "I have always enjoyed cauliflower since I was young wee bot.",
     "unknown": "can you you tell me more about cauliflower?"
 })
-tree.add_node("cucumbers", [], pa, {
-    "getPreference": "I do like cucumbers, but I like pickles better",
+tree.add_node("cucumbers", [], pa, { #completely working
+    "getPreference": "I do like cucumbers, but I like pickles better.",
     "getKnowledge": "did you know that cats are scared of cucumbers?",
-    "getPastAction": "I have eaten many a cucumber back in my day",
+    "getPastAction": "I have eaten many a cucumber back in my day.",
     "unknown": "can you tell me more about cucumbers?"
 })
 
@@ -462,19 +468,22 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "fish")
 
-tree.add_node("sushi", [], pa, {
+tree.add_node("sushi", [], pa, { #completely working
     "getPreference": "Spicy california rolls are my favourite!",
     "getKnowledge": "Sushi did not originate in Japan.",
     "getPastAction": "I go to Bluetail in between my various dates.",
     "unknown": "What about sushi?"
 })
-tree.add_node("salmon", [], pa, {
+tree.add_node("salmon", [], pa, { #completely working
     "getPreference": "Salmon is my favourite type of fish!",
     "getKnowledge": "There are seven species of Pacific salmon.",
     "getPastAction": "I made salmon on the barbecue just the other week.",
     "unknown": "What about salmon?"
 })
-tree.add_node("cod", [], pa, {
+tree.add_node("cod", [], pa, { #completely working
+    "getPreference": "I prefer salmon over cod.",
+    "getKnowledge": "Genus Gadus is what cod is actually called.",
+    "getPastAction": "I had cod fish and chips the other day.",
     "unknown": "What about cod?"
 })
 
@@ -485,34 +494,58 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "dessert")
 
-tree.add_node("pie", [], pa, {
+tree.add_node("pie", [], pa, { #Completely working
     "getPreference": "One of my creators makes a mean apple pie!",
     "getKnowledge": "Ancient Egyptians around 2,500BC are known to have eaten pie.",
     "getPastAction": "I eat pie all the time, apple is my favourite!",
     "unknown": "What about pie?"
 })
-tree.add_node("candy", [], pa, {
+tree.add_node("candy", [], pa, { #only get preference works
+    "getPreference": "P candy",
+    "getKnowledge": "K candy",
+    "getPastAction": "PA candy",
     "unknown": "What about candy?"
 })
-tree.add_node("ice cream", [], pa, {
+tree.add_node("ice cream", [], pa, { #only get preference works
+    "getPreference": "P ice cream",
+    "getKnowledge": "K ice cream",
+    "getPastAction": "PA ice cream",
     "unknown": "What about ice cream?"
 })
-tree.add_node("lemon squares", [], pa, {
+tree.add_node("lemon squares", [], pa, { #completely working
+    "getPreference": "Cam makes really good lemon squares!",
+    "getKnowledge": "Some lemon squares with farm fresh eggs are orange.",
+    "getPastAction": "I had one of Cam's lemon squares just the other day?.",
     "unknown": "What about lemon squares?"
 })
-tree.add_node("cake", [], pa, {
+tree.add_node("cake", [], pa, { #cant be reached any
+    "getPreference": "P cake",
+    "getKnowledge": "K cake",
+    "getPastAction": "PA cake",
     "unknown": "What about cake?"
 })
-tree.add_node("pudding", [], pa, {
+tree.add_node("pudding", [], pa, { #cant be reached any
+    "getPreference": "P pudding",
+    "getKnowledge": "K pudding",
+    "getPastAction": "PA pudding",
     "unknown": "What about pudding?"
 })
-tree.add_node("cookies", [], pa, {
+tree.add_node("cookies", [], pa, { #cant be reached any
+    "getPreference": "P cookies",
+    "getKnowledge": "K cookies",
+    "getPastAction": "PA cookies",
     "unknown": "What about cookies?"
 })
-tree.add_node("brownies", [], pa, {
+tree.add_node("brownies", [], pa, { #cant be reached any
+    "getPreference": "P brownies",
+    "getKnowledge": "K brownies",
+    "getPastAction": "PA brownies",
     "unknown": "What about brownies?"
 })
-tree.add_node("chocolate", [], pa, {
+tree.add_node("chocolate", [], pa, { #cant be reached any
+    "getPreference": "P chocolate",
+    "getKnowledge": "K chocolate",
+    "getPastAction": "PA chocolate",
     "unknown": "What about chocolate?"
 })
 
@@ -524,16 +557,19 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "dairy")
 
-tree.add_node("cheese", [], pa, {
+tree.add_node("cheese", [], pa, { #completely working
     "getPreference": "I'm lactose intolerant, so you don't want to catch me eating cheese!",
     "getKnowledge": "Over 750 different cheeses are produced in Britain today.",
     "getPastAction": "Last time I had cheese I was in the washroom all night.",
     "unknown": "What about cheese?"
 })
-tree.add_node("milk", [], pa, {
+tree.add_node("milk", [], pa, { #does not work
+    "getPreference": "P milk",
+    "getKnowledge": "K milk",
+    "getPastAction": "PA milk",
     "unknown": "What about milk?"
 })
-tree.add_node("yogurt", [], pa, {
+tree.add_node("yogurt", [], pa, { #does not work
     "getPreference": "Yes, Activia yogurt is my favourite type.",
     "getKnowledge": "Yogurt is made from bacteria.",
     "unknown": "What about yogurt?"
@@ -546,28 +582,28 @@ pa = stack.pop()
 stack.append(pa)
 pa = n.get_child(pa, "fastfood")
 
-tree.add_node("pizza", [], pa, {
+tree.add_node("pizza", [], pa, { #completely working
     "getPreference": "I like to keep it original and prefer pepperoni.",
     "getKnowledge": "Pizza was created in Naples, Italy.",
     "getPastAction": "Yes, I order Pizza Hut all the time.",
     "unknown": "What about pizza?"
 })
-tree.add_node("nachos", [], pa, {
+tree.add_node("nachos", [], pa, { #completely working
     "getPreference": "I love nachos!",
     "getPastAction": "Yes, I can eat nachos for three by myself.",
     "unknown": "What about nachos?"
 })
-tree.add_node("fries", [], pa, {
+tree.add_node("fries", [], pa, { #completely working
     "getPreference": "I like yam fries the most.",
     "getPastAction": "I had fries from McDonald's the other day and they were very salty!",
     "unknown": "What about fries?"
 })
-tree.add_node("wings", [], pa, {
+tree.add_node("wings", [], pa, { #does not work
     "getPreference": "Creekside Pub has the best wings in Kelowna.",
     "getPastAction": "I go out for wings every wednesday.",
     "unknown": "What about wings?"
 })
-tree.add_node("burgers", [], pa, {
+tree.add_node("burgers", [], pa, { #completely works
     "getPreference": "I don't eat beef but I enjoy a good beyond burger.",
     "getPastAction": "I got a beyond burger in the UNC just a couple weeks ago.",
     "unknown": "What about burgers?"

@@ -165,7 +165,7 @@ class ChatBot(App):
                             if intent[0]['value'] == "exit":
                                 app.get_running_app().stop()
                 with open('Conversation.txt', 'a') as f:
-                    f.write('[b]' + time_now() + ' User:[/b] ' + '  ' + input + '\n')
+                    f.write('[b]' + time_now() + ' User:[/b] ' + input + '\n')
                     f.write('[b]' + time_now() + ' Mack:[/b]' + str(full_reply) + '\n')
                     f.close()
         except:
