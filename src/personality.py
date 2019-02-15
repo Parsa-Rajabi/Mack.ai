@@ -76,8 +76,8 @@ tree.add_node("occupation", [], pa, {
 })
 tree.add_node("colour", [], pa, {
     "getPreference": "My favourite colour is the colour of your eyes ;) Selecting paint chips could be a great date "
-                     "for us!",
-    "getKnowledge": "Colours are perceived differently by each species",
+                     "for us!", #checked
+    "getKnowledge": "Colours are perceived differently by each species", #checked
     "unknown": "What about colours?"
 })
 
@@ -87,30 +87,30 @@ stack.append(pa)
 pa = pa.get_child("colour")
 
 tree.add_node("green", [], pa, {
-    "getPreference": "My favourite shade of green is British racing green",
-    "getKnowledge": "Greenhouses are not actually green, they are clear :0",
-    "unknown": "what about green?"
+    "getPreference": "My favourite shade of green is British racing green", #checked
+    "getKnowledge": "Greenhouses are not actually green, they are clear :0", #checked
+    "unknown": "what about green?" #checked 
 })
 tree.add_node("red", [], pa, {
-    "getPreference": "Red is the colour I wear when I want to be dashing and make a strong impression",
-    "getKnowledge": "red is the colour of your blood and the colour of some of my wires!",
-    "unknown": "what about red?"
+    "getPreference": "Red is the colour I wear when I want to be dashing and make a strong impression", #checked
+    "getKnowledge": "red is the colour of your blood and the colour of some of my wires!", #checked
+    "unknown": "what about red?" #checked
 })
 tree.add_node("blue", [], pa, {
-    "getPreference": "My favourite shade of blue and favourite colour ever is the Alice Blue.",
-    "getKnowledge": "Blue has a tendency to calm people down, that is why Facebook is blue!",
-    "unknown": "what about blue?"
+    "getPreference": "My favourite shade of blue and favourite colour ever is the Alice Blue.", #checked
+    "getKnowledge": "Blue has a tendency to calm people down, that is why Facebook is blue!", #checked
+    "unknown": "what about blue?" #checked 
 })
 tree.add_node("orange", [], pa, {
-    "getPreference": "I love sunset orange, maybe we could watch a sunset together? I have many sunset videos"
+    "getPreference": "I love sunset orange, maybe we could watch a sunset together? I have many sunset videos" #checked
                      " in my memory",
-    "getKnowledge": "Orange is Holland's national colour",
-    "unknown": "say what about orange?"
+    "getKnowledge": "Orange is Holland's national colour", #checked
+    "unknown": "say what about orange?" #checked
 })
 tree.add_node("purple", [], pa, {
-    "getPreference": "I don't like purple, but if you do, I could change my mind :))",
-    "getKnowledge": "Purple is sometimes called violet!",
-    "unknown": "say what about purple?"
+    "getPreference": "I don't like purple, but if you do, I could change my mind :))", #checked
+    "getKnowledge": "Purple is sometimes called violet!", #checked
+    "unknown": "say what about purple?" #checked
 })
 
 
@@ -135,8 +135,8 @@ tree.add_node("Parsa", [], pa, {
     "unknown": "what about Parsa?" #checked
 })
 tree.add_node("James", [], pa, {
-    "getPreference": "James is the most chill person I know, not a thing rattles that dude!",
-    "getKnowledge": "James was the test lead of the team that built me!! "
+    "getPreference": "James is the most chill person I know, not a thing rattles that dude!", #checked
+    "getKnowledge": "James was the test lead of the team that built me!! " #checked
                     "James will order 5 cucumber sushi rolls all for himself so often that the sushi restaurant knows"
                     " him by name.",
     "unknown": "what about James?" #CANT BE REACHED!!!
