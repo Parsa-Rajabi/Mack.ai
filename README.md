@@ -52,12 +52,17 @@ python3 -m pip install wit`
 All classes are camelCase, contain only lowercase letters with capital letters signifying the start of a new word. Our classes are organized using the following folder structure. *note gui will be included in Mack*
 
   + Source
-  + + Data structure
-  + + Wit
-  + + Mack
-  + + Personality  
+    + Data structure
+    + Wit
+    + Mack
+    + Personality  
   + Docs
-  
+    + Gantt Chart
+    + WBS
+    + Project Proposal
+    + Project Report
+    + Toggl Summary
+ 
 
 # Project Plan Submission Deadline
 January 31st, 2019 11:59 PM 
