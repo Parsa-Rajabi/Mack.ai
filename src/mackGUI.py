@@ -119,7 +119,7 @@ class ScrollableLabel(ScrollView):
     pass
 
 
-class ChatBot(App):
+class Mackenzie(App):
     text = StringProperty('')
 
     #Initiate the file to write and read from / Start conversation
@@ -181,5 +181,5 @@ class ChatBot(App):
         return RootWidget()
 
 if __name__ == '__main__':
-    app = ChatBot()
+    app = Mackenzie()
     app.run()
