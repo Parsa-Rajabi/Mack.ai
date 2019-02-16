@@ -42,7 +42,7 @@ tree.add_node("food", [], pa, {
     "unknown": "I'm sorry, I don't know that food."
 })
 tree.add_node("drink", [], pa, {
-    "getPreference": "I love coffee, beer, and milkshakes.",
+    "getPreference": "I love the idea of coffee, beer, and milkshakes.",
     "getPastAction": "I don't like liquids.",
     "getContinuousState": "Thanks for the offer, but liquids would ruin my circuitry",
     "unknown": "I'm sorry, I don't know that drink."
