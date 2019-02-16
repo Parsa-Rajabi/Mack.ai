@@ -1,19 +1,3 @@
-[b][15:46:31] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][15:46:45] User:[/b] have you ever played guitar
-[b][15:46:45] Mack:[/b] I used to play guitar hero if that counts. 
-[b][15:46:59] User:[/b] what do you know about guitar
-[b][15:46:59] Mack:[/b] Classical guitars strings are made if nylon. 
-[b][15:47:42] User:[/b] do you play guitar
-[b][15:47:42] Mack:[/b] No I haven't had much time to jam recently 
-[b][15:47:56] User:[/b] guitar?
-[b][15:47:56] Mack:[/b] I'm sorry, I don't know about that. 
-[b][15:48:21] User:[/b] do you play piano?
-[b][15:48:21] Mack:[/b] Sorry, I don't know if I do that. 
-[b][15:56:23] User:[/b] what is your favourite genre of music?
-[b][15:56:23] Mack:[/b] My favourite genre is Electroswing, we should make some music together 
-[b][15:58:42] User:[/b] do you like bananas
-[b][15:58:42] Mack:[/b] I do like bananas, we should make banana bread ;) 
-[b][15:59:09] User:[/b] have you ever had passion fruit before
-[b][15:59:09] Mack:[/b] No I have never had passion fruit before, I guess I am lacking passion :( 
-[b][16:11:01] User:[/b] do you like a dessert called pudding
-[b][16:11:01] Mack:[/b] I love dessert! 
+[b][17:37:22] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][17:37:31] User:[/b] do you like music genre of country?
+[b][17:37:31] Mack:[/b] My favourite genre is Electroswing, we should make some music together 

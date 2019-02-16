@@ -310,16 +310,16 @@ tree.add_node("guitar", [], pa, {       #always use guitar not guitars
     "getContinuousState": "No I haven't had much time to jam recently", #WORKS
     "unknown": "What about guitar?"                                     #does not work
 })
-tree.add_node("piano", [], pa, {
+tree.add_node("piano", [], pa, {    #untrained doesn't work
     "getPreference": "I love the sound of piano.",
     "getKnowledge": "Almost every modern piano has 88 keys.",
     "getPastAction": "I used to play guitar hero if that counts.",
     "unknown": "What about piano?"
 })
 tree.add_node("drum", [], pa, {
-    "getPreference": "I enjoy the sound of drums in a live band.",
-    "getKnowledge": "Drums are one of the world's oldest instruments.",
-    "getPastAction": "I played the drums in the game Rock Band before. Does that count?",
+    "getPreference": "I enjoy the sound of drums in a live band.",      #WORKS
+    "getKnowledge": "Drums are one of the world's oldest instruments.", #WORKS
+    "getPastState": "I played the drums in the game Rock Band before. Does that count?",    #WORKS
     "unknown": "What about drum?"
 })
 
@@ -329,16 +329,23 @@ stack.append(pa)
 pa = n.get_child(pa, "genre")
 
 tree.add_node("rock", [], pa, {
-    "getPreference": "Rock and roll is my jam. My favourite rock song is Smells Like Teen Spirit by Nirvana",
-    "getKnowledge": "Chuck Berry is said to be the father of rock and roll",
-    "getPastAction": "I have been listening to rock since I knew how to work a radio",
-    "unknown": "Could you tell me more about the rock genre?"
+    "getPreference": "Rock and roll is my jam. My favourite rock song is Smells Like Teen Spirit by Nirvana",   #WORKS
+    "getKnowledge": "Chuck Berry is said to be the father of rock and roll",                                    #WORKS
+    "getPastAction": "I have been listening to rock since I knew how to work a radio",                          #WOKRS
+    "unknown": "Could you tell me more about the rock genre?"                                                   #WORKS
 })
 tree.add_node("alternative", [], pa, {
-    "getPreference": "I'm a huge fan of alternative, especially Kids by MGMT. We should have a music date :)",
-    "getKnowledge": "There are many subgenres of alternative music! Such as alternative rock",
-    "getPastAction": "I used to really like Tame Impala, but then I listened to it too much",
+    "getPreference": "I'm a huge fan of alternative, especially Kids by MGMT. We should have a music date :)",  #WORKS
+    "getKnowledge": "There are many subgenres of alternative music! Such as alternative rock",                  #doesn't work
+    "getPastAction": "I used to really like Tame Impala, but then I listened to it too much",                   #WORK
     "unknown": "Could you tell me more about the alternative genre?"
+})
+tree.add_node("country", [], pa, {
+    "getPreference": "TAKE ME HOME COUNTRY ROADS!!!! One of my favourite artists is Shania Twain. "
+                     "We should line dance at the Corral sometime!",
+    "getKnowledge": "Well I know the cadillac ranch line dance!",
+    "getPastAction": "Country music is my past, present and future.",
+    "unknown": "what about country music?"
 })
 
 # topic > activities > music :
