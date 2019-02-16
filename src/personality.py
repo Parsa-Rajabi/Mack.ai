@@ -131,7 +131,7 @@ tree.add_node("Mack", [], pa, {
 tree.add_node("Parsa", [], pa, {
     "getPreference": "Parsa is a pretty swell dude!", #checked
     "getKnowledge": "Parsa was the project manager of the team that built me!! His most defining "
-                    "feature is probably his snapchat score of 428, 179 ", #checked
+                    "feature is probably his snapchat score of 428, 179. Add him on Snapchat: parsly", #checked
     "unknown": "what about Parsa?" #checked
 })
 tree.add_node("James", [], pa, {
@@ -287,10 +287,10 @@ stack.append(pa)
 pa = n.get_child(pa, "music")
 
 tree.add_node("instrument", [], pa, {
-    "getPreference": "My favourite instrument in the piano!",                               #works when: which instrument is your favourite
-    "getKnowledge": "percussion instruments make sound when hit or vibrated..",             #what do you know about musical instruments
-    "getPastState": "I was in band in elementary school.",                                  #WORKS
-    "unknown": "What about instruments?"
+    "getPreference": "My favourite instrument in the piano!",                       #works when: which instrument is your favourite
+    "getKnowledge": "percussion instruments make sound when hit or vibrated..",     #what do you know about musical instruments
+    "getPastState": "I was in band in elementary school.",                          #WORKS
+    "unknown": "What about instruments?"                                            #WORKS
 })
 tree.add_node("genre", [], pa, {
     "getPreference": "My favourite genre is Electroswing, we should make some music together",
@@ -303,11 +303,12 @@ tree.add_node("genre", [], pa, {
 stack.append(pa)
 pa = n.get_child(pa, "instrument")
 
-tree.add_node("guitar", [], pa, {
-    "getPreference": "I prefer the sound of acoustic guitars.",
-    "getKnowledge": "Classical guitars strings are made if nylon.",
-    "getPastAction": "I used to play guitar hero if that counts.",
-    "unknown": "What about guitar?"
+tree.add_node("guitar", [], pa, {       #always use guitar not guitars
+    "getPreference": "I prefer the sound of acoustic guitars.",         #WORKS
+    "getKnowledge": "Classical guitars strings are made if nylon.",     #WORK
+    "getPastState": "I used to play guitar hero if that counts.",       #WORKS
+    "getContinuousState": "No I haven't had much time to jam recently", #WORKS
+    "unknown": "What about guitar?"                                     #does not work
 })
 tree.add_node("piano", [], pa, {
     "getPreference": "I love the sound of piano.",
