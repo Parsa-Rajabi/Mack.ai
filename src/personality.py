@@ -42,7 +42,7 @@ tree.add_node("food", [], pa, {
     "unknown": "I'm sorry, I don't know that food."
 })
 tree.add_node("drink", [], pa, {
-    "getPreference": "I love coffee, beer, and milkshakes.",
+    "getPreference": "I love the idea of coffee, beer, and milkshakes.",
     "getPastAction": "I don't like liquids.",
     "getContinuousState": "Thanks for the offer, but liquids would ruin my circuitry",
     "unknown": "I'm sorry, I don't know that drink."
@@ -557,7 +557,7 @@ tree.add_node("chocolate", [], pa, { #cant be reached any
 # topic > food :
 pa = stack.pop()
 
-# topic > food > dairy : cheese, milk, yogurt
+# topic > food > dairy : cheese, yogurt
 stack.append(pa)
 pa = n.get_child(pa, "dairy")
 
@@ -567,13 +567,7 @@ tree.add_node("cheese", [], pa, { #completely working
     "getPastAction": "Last time I had cheese I was in the washroom all night.",
     "unknown": "What about cheese?"
 })
-tree.add_node("milk", [], pa, { #does not work
-    "getPreference": "P milk",
-    "getKnowledge": "K milk",
-    "getPastAction": "PA milk",
-    "unknown": "What about milk?"
-})
-tree.add_node("yogurt", [], pa, { #does not work
+tree.add_node("yogurt", [], pa, { #get preference works, does not work
     "getPreference": "Yes, Activia yogurt is my favourite type.",
     "getKnowledge": "Yogurt is made from bacteria.",
     "unknown": "What about yogurt?"
