@@ -81,20 +81,20 @@ Additions:
     + I don't understand, wanna talk about lemonsqures?
     + I'm sorry I don't know about that.
    
-  + Mack can now communicate with itself through our socket feature
   
   + Mack can now communicate with more than 1 lanauge (both input and output)
 
-```Snippet of a conversation demonstartion our translator feature 
-[b][17:59:56] User:[/b] hallo, hoe gaat het met jou?
-[b][17:59:56] Mack:[/b] Het gaat goed, dank je.
-[b][18:00:08] User:[/b] dat is heel leuk!
-[b][18:00:08] Mack:[/b] Het spijt me, ik heb die emotie niet.
-[b][18:00:46] User:[/b] wat vind je van liemoen koekjes?
-[b][18:00:46] Mack:[/b] Ik geniet echt van binary, hoe zit het met jou?
 ```
+User: hallo, hoe gaat het met jou?
+Mack: Het gaat goed, dank je.
+User: dat is heel leuk!
+Mack: Het spijt me, ik heb die emotie niet.
+User: wat vind je van liemoen koekjes?
+Mack: Ik geniet echt van binary, hoe zit het met jou?
+```
+  + Mack can now communicate with itself through our socket feature
 
-```Snippet of a conversation demonstartion our socket feature
+```
 Mack: Soccer
 Mack 2: What about soccer?
 Mack: France won the last world cup.
