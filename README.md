@@ -122,10 +122,14 @@ Unchanged Features from A2:
 
 Description of how these features improved Mack.ai: 
 ```
-By adding more language support Mack is now usable by a wider range of people thus increasing its usability.
-By increasing the number of potential topics Mack is able to talk about a wider range of topics, making it a more interesting conversation.
-By implementing the socket feature, Mack can now talk to itself and have a normal flow conversation. 
-In order to run the Mack to Mack feature you must run the server.py file then run the mack.py file while the server.py file is still running.
+1. By adding more language support Mack is now usable by a 
+wider range of people thus increasing its usability.
+2. By increasing the number of potential topics Mack is able 
+to talk about a wider range of topics, making it a more interesting conversation.
+3. By implementing the socket feature, Mack can now talk to itself 
+and have a normal flow conversation. 
+In order to run the Mack to Mack feature you must run the server.py
+file then run the mack.py file while the server.py file is still running.
 ```
 
 # Project Plan Submission Deadline
