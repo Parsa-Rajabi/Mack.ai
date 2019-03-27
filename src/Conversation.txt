@@ -1,18 +1,13 @@
-[b][17:36:16] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][17:36:21] User:[/b] bonjour
-[b][17:36:21] Mack:[/b] Salut! Je suis Mack. Comment vas-tu aujourd'hui? 
-[b][17:36:36] User:[/b] aloha
-[b][17:36:36] Mack:[/b] I'm sorry, I don't know about that. 
-[b][17:37:33] User:[/b] Zdravstvuyte
-[b][17:37:46] User:[/b] hi
-[b][17:37:46] Mack:[/b] Hi there! I'm Mack. How are you today? 
-[b][17:38:12] User:[/b] hoi
-[b][17:38:17] User:[/b] Hoi
-[b][17:38:27] User:[/b] hola
-[b][17:38:27] Mack:[/b] ¡Hola! Soy mack ¿Cómo estás hoy? 
-[b][17:38:40] User:[/b] hallo
-[b][17:38:40] Mack:[/b] Hallo! Ich bin Mack. Wie geht es Ihnen heute? 
-[b][17:39:00] User:[/b] comment ca va?
-[b][17:39:00] Mack:[/b] Je vais bien merci. 
-[b][17:39:20] User:[/b] est ce que tu aimes le soccer?
-[b][17:39:20] Mack:[/b] Le football est mon sport préféré! 
+[b][17:57:13] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][17:57:19] User:[/b] wanna bang rn
+[b][17:57:19] Mack:[/b] I don't understand, wanna talk about lemon squares? 
+[b][17:58:11] User:[/b] wanna bang rn
+[b][17:58:11] Mack:[/b] I don't understand, wanna talk about lemon squares? 
+[b][17:58:17] User:[/b] wanna bang rn
+[b][17:58:17] Mack:[/b] I am very confused right now. Could we talk about something else? 
+[b][17:59:56] User:[/b] hallo, hoe gaat het met jou?
+[b][17:59:56] Mack:[/b] Het gaat goed, dank je. 
+[b][18:00:08] User:[/b] dat is heel leuk!
+[b][18:00:08] Mack:[/b] Het spijt me, ik heb die emotie niet. 
+[b][18:00:46] User:[/b] wat vind je van liemoen koekjes?
+[b][18:00:46] Mack:[/b] Ik geniet echt van binary, hoe zit het met jou? 

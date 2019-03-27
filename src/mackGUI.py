@@ -8,6 +8,7 @@ from googletrans import Translator
 
 import re
 import datetime
+import random
 
 from kivy.app import App
 from kivy.uix.scrollview import ScrollView
@@ -15,6 +16,12 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import StringProperty
 from kivy.lang import Builder
 from kivy.core.window import Window
+
+unknown_responses = ["I'm sorry I don't understand, wanna talk about sports?",
+                     "I do not understand you at all :|",
+                     "I am very confused right now. Could we talk about something else?",
+                     "I don't understand, wanna talk about lemon squares?",
+                     "I'm sorry I don't know about that"]
 
 
 print("Starting Mack...")
@@ -165,6 +172,8 @@ class Mackenzie(App):
                     resp = client.message(sentence)
                     #makes call to tree to get response
                     response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+                    if response == 'UNKNOWN':
+                        response = unknown_responses[random.randint(0,5)]
                     response = translator.translate(response, dest = language).text
                     full_reply += response + ' '
                     #checks to make sure the user isnt exiting, if so closes window intent == exit

@@ -1,8 +1,16 @@
 from node import Node as n
 import personalityTree as pt
+import random
 print("loading personality...")
 
 # available intents:
+integer = random.randint(0,5)
+unknown_responses = ["I'm sorry I don't understand, wanna talk about sports?",
+                     "I do not understand you at all :|",
+                     "I am very confused right now. Could we talk about something else?",
+                     "I don't understand, wanna talk about lemon squares?",
+                     "I'm sorry I don't know about that"]
+
 
 root = n.init_root_node("topic", [], "Root Node: Topic", {
     "getPreference": "I like talking to you, for one ;)",
@@ -17,7 +25,7 @@ root = n.init_root_node("topic", [], "Root Node: Topic", {
     "getKnowledge": "I'm not sure, sorry.",
     "flirt": "*wink*",
     "greeting": "Hi there! I'm Mack. How are you today?",
-    "unknown": "I'm sorry, I don't know about that."
+    "unknown": "UNKNOWN"
 })
 tree = pt.Tree(root)
 stack = []
