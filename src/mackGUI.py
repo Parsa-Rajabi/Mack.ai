@@ -147,16 +147,25 @@ class Mackenzie(App):
     #Handles user input and prints to screen
     def runStuff(self, input):
         try:
+                translator = Translator()
                 #split sentences up into parts
                 userInput = re.split('[\.!?]', input.lower().rstrip('.!?'))
                 full_reply = ' '
                 for sentence in userInput:
                     #removes white space in front of input
                     sentence=sentence.lstrip()
+
+                    #check language inputted
+                    language = translator.detect(sentence).lang
+
+                    #if not english translate to english
+                    translation = translator.translate(sentence, dest='en')
+                    sentence = translation.text
                     #get response from wit for each sentence
                     resp = client.message(sentence)
                     #makes call to tree to get response
                     response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+                    response = translator.translate(response, dest = language).text
                     full_reply += response + ' '
                     #checks to make sure the user isnt exiting, if so closes window intent == exit
                     entities = resp['entities']
