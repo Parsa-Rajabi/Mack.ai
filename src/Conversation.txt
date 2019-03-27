@@ -1,13 +1,33 @@
-[b][17:57:13] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][17:57:19] User:[/b] wanna bang rn
-[b][17:57:19] Mack:[/b] I don't understand, wanna talk about lemon squares? 
-[b][17:58:11] User:[/b] wanna bang rn
-[b][17:58:11] Mack:[/b] I don't understand, wanna talk about lemon squares? 
-[b][17:58:17] User:[/b] wanna bang rn
-[b][17:58:17] Mack:[/b] I am very confused right now. Could we talk about something else? 
-[b][17:59:56] User:[/b] hallo, hoe gaat het met jou?
-[b][17:59:56] Mack:[/b] Het gaat goed, dank je. 
-[b][18:00:08] User:[/b] dat is heel leuk!
-[b][18:00:08] Mack:[/b] Het spijt me, ik heb die emotie niet. 
-[b][18:00:46] User:[/b] wat vind je van liemoen koekjes?
-[b][18:00:46] Mack:[/b] Ik geniet echt van binary, hoe zit het met jou? 
+[b][18:48:11] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][18:49:31] User:[/b] hello
+[b][18:49:31] Mack:[/b] Hi there! I'm Mack. How are you today? 
+[b][18:49:37] User:[/b] mack
+[b][18:49:37] Mack:[/b] I'm sorry I don't understand, wanna talk about sports? 
+[b][18:50:15] User:[/b] you up? ;)
+[b][18:50:15] Mack:[/b] What about me? I'm sorry I don't understand, wanna talk about sports? 
+[b][18:50:24] User:[/b] Who made you
+[b][18:50:24] Mack:[/b] I am a Chatbot created as a COSC 310 project at UBCO! 
+[b][18:50:29] User:[/b] What is 310
+[b][18:50:29] Mack:[/b] I'm sorry I don't understand, wanna talk about sports? 
+[b][18:50:38] User:[/b] Your mom gay
+[b][18:50:38] Mack:[/b] I don't understand, wanna talk about lemon squares? 
+[b][18:50:41] User:[/b] wit
+[b][18:50:41] Mack:[/b] I'm sorry I don't know about that 
+[b][18:50:44] User:[/b] gg
+[b][18:50:44] Mack:[/b] I'm sorry I don't understand, wanna talk about sports? 
+[b][18:50:46] User:[/b] lol
+[b][18:50:46] Mack:[/b] I am very confused right now. Could we talk about something else? 
+[b][18:50:52] User:[/b] yikes
+[b][18:50:52] Mack:[/b] BIG  Y I K E S. 
+[b][18:51:22] User:[/b] orange
+[b][18:51:22] Mack:[/b] I'm sorry I don't know about that 
+[b][18:51:25] User:[/b] yellow
+[b][18:51:25] Mack:[/b] say what about yellow? 
+[b][18:51:29] User:[/b] color
+[b][18:51:29] Mack:[/b] I don't understand, wanna talk about lemon squares? 
+[b][18:51:36] User:[/b] lemon squares
+[b][18:51:36] Mack:[/b] What about lemon squares? 
+[b][18:51:49] User:[/b] do you like lemon circles
+[b][18:51:49] Mack:[/b] Cam makes really good lemon squares! 
+[b][18:53:01] User:[/b] do you like Shania Twain?
+[b][18:53:01] Mack:[/b] I like talking to you, for one ;) 
