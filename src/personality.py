@@ -1,8 +1,16 @@
 from node import Node as n
 import personalityTree as pt
+import random
 print("loading personality...")
 
 # available intents:
+integer = random.randint(0,5)
+unknown_responses = ["I'm sorry I don't understand, wanna talk about sports?",
+                     "I do not understand you at all :|",
+                     "I am very confused right now. Could we talk about something else?",
+                     "I don't understand, wanna talk about lemon squares?",
+                     "I'm sorry I don't know about that"]
+
 
 root = n.init_root_node("topic", [], "Root Node: Topic", {
     "getPreference": "I like talking to you, for one ;)",
@@ -17,7 +25,7 @@ root = n.init_root_node("topic", [], "Root Node: Topic", {
     "getKnowledge": "I'm not sure, sorry.",
     "flirt": "*wink*",
     "greeting": "Hi there! I'm Mack. How are you today?",
-    "unknown": "I'm sorry, I don't know about that."
+    "unknown": "UNKNOWN"
 })
 tree = pt.Tree(root)
 stack = []
@@ -111,6 +119,11 @@ tree.add_node("purple", [], pa, {
     "getPreference": "I don't like purple, but if you do, I could change my mind :))", #checked
     "getKnowledge": "Purple is sometimes called violet!", #checked
     "unknown": "say what about purple?" #checked
+})
+tree.add_node("yellow", [], pa, {
+    "getPreference": "I love yellow! It's such a happy colour :))",
+    "getKnowledge": "yellow is a primary colour!",
+    "unknown": "say what about yellow?"
 })
 
 
@@ -690,6 +703,36 @@ tree.add_node("absinthe", [], pa, {
     "getKnowledge": "Most absinthe is around 70% alcohol. Stay safe friend!", #checked 
     "getPastAction": "I have not tried absinthe as my circuitry doesn't like to get wet!", #checked
     "unknown": "what about absinthe" #checked
+})
+tree.add_node("tequila", [], pa, {
+   "getPreference": "I haven't tried tequila before, however I have found many people like Corona.",
+   "getKnowledge": "Tequila is a distilled beverage.", #checked
+   "getPastAction": "I have not tried tequila as my circuitry doesn't like to get wet!",
+   "unknown": "What about tequila?"
+})
+tree.add_node("jager", [], pa, {
+   "getPreference": "I haven't tried jager before, however I have found many people like white.",
+   "getKnowledge": "Jager is a digestiff made with 56 herbs",
+   "getPastAction": "I have not tried jager as my circuitry doesn't like to get wet!",
+   "unknown": "What about jager?"
+})
+tree.add_node("amaretto", [], pa, {
+   "getPreference": "I haven't tried amaretto before, however I have found many people like white.",
+   "getKnowledge": "Amaretto is a sweet italian liquer that originated in Sarononna.",
+   "getPastAction": "I have not tried amaretto as my circuitry doesn't like to get wet!",
+   "unknown": "What about amaretto?"
+})
+tree.add_node("Gin", [], pa, {
+   "getPreference": "I haven't tried gin before, however I have found many people like white.",
+   "getKnowledge": "Gin derives its predominant flavour from juniper berries!",
+   "getPastAction": "I have not tried gin as my circuitry doesn't like to get wet!",
+   "unknown": "What about gin?"
+})
+tree.add_node("Rum", [], pa, {
+   "getPreference": "I haven't tried rum before, however I have found many people like white.",
+   "getKnowledge": "Rum is made from sugarcane byproducts, such as molasses!",
+   "getPastAction": "I have not tried rum as my circuitry doesn't like to get wet!",
+   "unknown": "What about Rum?"
 })
 
 

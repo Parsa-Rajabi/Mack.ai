@@ -4,9 +4,11 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
+from googletrans import Translator
 
 import re
 import datetime
+import random
 
 from kivy.app import App
 from kivy.uix.scrollview import ScrollView
@@ -14,6 +16,12 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import StringProperty
 from kivy.lang import Builder
 from kivy.core.window import Window
+
+unknown_responses = ["I'm sorry I don't understand, wanna talk about sports?",
+                     "I do not understand you at all :|",
+                     "I am very confused right now. Could we talk about something else?",
+                     "I don't understand, wanna talk about lemon squares?",
+                     "I'm sorry I don't know about that"]
 
 
 print("Starting Mack...")
@@ -146,16 +154,27 @@ class Mackenzie(App):
     #Handles user input and prints to screen
     def runStuff(self, input):
         try:
+                translator = Translator()
                 #split sentences up into parts
                 userInput = re.split('[\.!?]', input.lower().rstrip('.!?'))
                 full_reply = ' '
                 for sentence in userInput:
                     #removes white space in front of input
                     sentence=sentence.lstrip()
+
+                    #check language inputted
+                    language = translator.detect(sentence).lang
+
+                    #if not english translate to english
+                    translation = translator.translate(sentence, dest='en')
+                    sentence = translation.text
                     #get response from wit for each sentence
                     resp = client.message(sentence)
                     #makes call to tree to get response
                     response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+                    if response == 'UNKNOWN':
+                        response = unknown_responses[random.randint(0,5)]
+                    response = translator.translate(response, dest = language).text
                     full_reply += response + ' '
                     #checks to make sure the user isnt exiting, if so closes window intent == exit
                     entities = resp['entities']
