@@ -63,22 +63,37 @@ All classes are camelCase, contain only lowercase letters with capital letters s
     + Project Report
     + Toggl Summary
  
+# Assignment 3 Details:
+
+Additions: 
+  + Added 6 new topics (1 per team member)
+    + Colour Yellow
+    + Gin
+    + Rum
+    + Amaretto
+    + Tequila
+    + Jager
+   
+  + Added 5 Different Off Topic Responses 
+    + I'm sorry I don't understand.
+    + Wanna talk about sports?
+    + I do not understand you at all ;)
+    + I am very confused right now.
+    + Could we talk about something else?
+   
+  + Mack can now communicate with itself through our socket feature
+  
+Unchanged Features from A2: 
+  + GUI was already implemented during A2
+  + wit.ai was used to create Mack.ai which is a language toolkit 
+  + wit.ai handles spelling mistakes 
+    
 
 # Project Plan Submission Deadline
 January 31st, 2019 11:59 PM 
 
-# Final deadline
+# A2 deadline
 February 15th, 2019 11:59 PM 
 
-
-# Specific evaluation criteria are:
-
-+ 5 points: Creation of individual GitHub accounts and having a team repository there.
-+ 4 points: Brief description of project being done. Description and rationale for the chosen SDLC. List of limitations of the program submitted.
-+ 6 points: Listing of phases, tasks, subtasks. Breadth of coverage. Meaningful breakdown.
-+ 10 points: WBS including all task assignments, hour estimations, actual hours. Distribution of workload should be fair.
-+ 5 points: Gantt chart with start/end dates and dependencies.
-+ 10 points: Software's ability to undergo 30 turns of a dialogue. Quality of dialogue: is the conversation "smooth" and realistic? Coverage of test output provided.
-+ 10 points: Software design (at the class level) and understandability of code documentation.
-+ 5 points: Presentation: does the demo work? Were branches used per feature implemented? Did everyone contribute to the project in some way?
-+ 5 points each round: Four rounds of peer evaluations for each of your team member. At each round, 4 points are allocated towards your ability to critique and 1 point based on your peer reports on you.
+# A3 deadline
+April 5th, 2019
