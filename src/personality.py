@@ -711,25 +711,25 @@ tree.add_node("tequila", [], pa, {
    "unknown": "What about tequila?"
 })
 tree.add_node("jager", [], pa, {
-   "getPreference": "I haven't tried jager before, however I have found many people like white.",
+   "getPreference": "I haven't tried jager before, but the logo is cool.",
    "getKnowledge": "Jager is a digestiff made with 56 herbs",
    "getPastAction": "I have not tried jager as my circuitry doesn't like to get wet!",
    "unknown": "What about jager?"
 })
 tree.add_node("amaretto", [], pa, {
-   "getPreference": "I haven't tried amaretto before, however I have found many people like white.",
+   "getPreference": "I haven't tried amaretto before, however I think I would like it.",
    "getKnowledge": "Amaretto is a sweet italian liquer that originated in Sarononna.",
    "getPastAction": "I have not tried amaretto as my circuitry doesn't like to get wet!",
    "unknown": "What about amaretto?"
 })
-tree.add_node("Gin", [], pa, {
-   "getPreference": "I haven't tried gin before, however I have found many people like white.",
+tree.add_node("gin", [], pa, {
+   "getPreference": "I haven't tried gin before, but you can mix it with many other things.",
    "getKnowledge": "Gin derives its predominant flavour from juniper berries!",
    "getPastAction": "I have not tried gin as my circuitry doesn't like to get wet!",
    "unknown": "What about gin?"
 })
-tree.add_node("Rum", [], pa, {
-   "getPreference": "I haven't tried rum before, however I have found many people like white.",
+tree.add_node("rum", [], pa, {
+   "getPreference": "I haven't tried rum before, however I've heard pina coladas are good.",
    "getKnowledge": "Rum is made from sugarcane byproducts, such as molasses!",
    "getPastAction": "I have not tried rum as my circuitry doesn't like to get wet!",
    "unknown": "What about Rum?"
