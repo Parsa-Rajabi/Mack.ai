@@ -75,6 +75,33 @@ Additions:
     + Tequila
     + Jager
    
+```
+Mack: HI! My name is Mack and I am a chatbot!
+User: do you like yellow
+Mack: I love yellow! It's such a happy colour :))
+User: what do you know about the colour yellow
+Mack: yellow is a primary colour!
+User: do you like gin?
+Mack: I haven't tried gin before, but you can mix it with many other things.
+User: what do you know about gin?
+Mack: Gin derives its predominant flavour from juniper berries!
+User: do you like tequila?
+Mack: I haven't tried tequila before, however I have found many people like Corona.
+User: what do you know about tequila?
+Mack: Tequila is a distilled beverage.
+User: Do you like amaretto
+Mack: I haven't tried amaretto before, however I think I would like it.
+User: what do you know about amaretto?
+Mack: Amaretto is a sweet italian liqueur that originated in Sarononna.
+User: do you like rum?
+Mack: I haven't tried rum before, however I've heard pina coladas are good.
+User: what do you know about rum?
+Mack: Rum is made from sugarcane byproducts, such as molasses!
+User: do you like jager?
+Mack: I haven't tried jager before, but the logo is cool.
+User: what do you know about jager?
+Mack: Jager is a digestiff made with 56 herbs
+```
   + Added 5 Different Off Topic Responses (3 points)
     + I'm sorry I don't understand, wanna talk about sports?
     + I do not understand you at all :|
@@ -91,7 +118,7 @@ User: is it okay for me to eat yellow snow
 Mack: I am very confused right now. Could we talk about something else?
 ```
   
-  + Mack can now communicate with more than 1 lanauge (both input and output)
+  + Mack can now communicate with more than 1 language (both input and output)
 
 ```
 User: hallo, hoe gaat het met jou?
