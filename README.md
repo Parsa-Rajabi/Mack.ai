@@ -65,22 +65,31 @@ All classes are camelCase, contain only lowercase letters with capital letters s
  
 # Assignment 3 Details:
 
+
 Additions: 
-  + Added 6 new topics (1 per team member)
+  + Added 6 new topics (1 per team member - 2 points)
     + Colour Yellow
-    + Gin
+    + Gin 
     + Rum
     + Amaretto
     + Tequila
     + Jager
    
-  + Added 5 Different Off Topic Responses 
+  + Added 5 Different Off Topic Responses (3 points)
     + I'm sorry I don't understand, wanna talk about sports?
-    + I do not understand you at all ;)
+    + I do not understand you at all :|
     + I am very confused right now. Could we talk about something else?
     + I don't understand, wanna talk about lemonsqures?
     + I'm sorry I don't know about that.
    
+```
+User: is it okay for me to eat yellow snow
+Mack: I'm sorry I don't understand, wanna talk about sports?
+User: is it okay for me to eat yellow snow
+Mack: I do not understand you at all :|
+User: is it okay for me to eat yellow snow
+Mack: I am very confused right now. Could we talk about something else?
+```
   
   + Mack can now communicate with more than 1 lanauge (both input and output)
 
@@ -92,7 +101,7 @@ Mack: Het spijt me, ik heb die emotie niet.
 User: wat vind je van liemoen koekjes?
 Mack: Ik geniet echt van binary, hoe zit het met jou?
 ```
-  + Mack can now communicate with itself through our socket feature
+  + Mack can now communicate with itself through our socket feature (15 points)
 
 ```
 Mack: Soccer
@@ -106,10 +115,18 @@ Mack 2: Interesting, go on.
 Mack: Interesting, go on.
 ```
 Unchanged Features from A2: 
-  + GUI was already implemented during A2
-  + wit.ai was used to create Mack.ai which is a language toolkit 
-  + wit.ai handles spelling mistakes 
+  + GUI was already implemented during A2 (5 points)
+  + wit.ai was used to create Mack.ai which is a language toolkit (5 points)
+  + wit.ai handles spelling mistakes (5 points)
     
+
+Description of how these features improved Mack.ai: 
+```
+By adding more language support Mack is now usable by a wider range of people thus increasing its usability.
+By increasing the number of potential topics Mack is able to talk about a wider range of topics, making it a more interesting conversation.
+By implementing the socket feature, Mack can now talk to itself and have a normal flow conversation. 
+In order to run the Mack to Mack feature you must run the server.py file then run the mack.py file while the server.py file is still running.
+```
 
 # Project Plan Submission Deadline
 January 31st, 2019 11:59 PM 
@@ -118,4 +135,4 @@ January 31st, 2019 11:59 PM
 February 15th, 2019 11:59 PM 
 
 # A3 deadline
-April 5th, 2019
+April 5th, 2019 11:59 PM
