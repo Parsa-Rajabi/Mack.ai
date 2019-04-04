@@ -23,7 +23,8 @@ This was created and test on python3.7
    `python -m pip install --upgrade pip wheel setuptools`
 3. Install the dependencies
 `python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-python -m pip install kivy.deps.gstreamer`
+python -m pip install kivy.deps.gstreamer
+python -m pip install googletrans`
 4. Install kivy and Wit.ai:    
 `python -m pip install kivy
 python -m pip install wit`
@@ -41,7 +42,8 @@ python -m pip install wit`
   ` python3 -m pip install --upgrade pip wheel setuptools `
 3. Install the dependencies
 `python3 -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-python3 -m pip install kivy.deps.gstreamer`
+python3 -m pip install kivy.deps.gstreamer
+python3 -m pip install googletrans`
 4. Install kivy and Wit.ai:    
 `python3 -m pip install kivy
 python3 -m pip install wit`
