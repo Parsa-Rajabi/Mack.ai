@@ -24,7 +24,7 @@ access_token = 'CDNAWIU4OA5JUBDQ3JESSC6AVZWRTDVR'
 client = Wit(access_token=access_token)
 print("Mack started.")
 looper = True
-sentMsg = 'Do you like gin?'
+sentMsg = 'Do you like music?'
 print("Mack: " +sentMsg)
 s.connect(('localhost', 6789))
 while looper:

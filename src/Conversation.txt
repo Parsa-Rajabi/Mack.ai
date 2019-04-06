@@ -1,3 +1,3 @@
-[b][17:37:22] Mack:[/b] HI! My name is Mack and I am a chatbot!
-[b][17:37:31] User:[/b] do you like music genre of country?
-[b][17:37:31] Mack:[/b] My favourite genre is Electroswing, we should make some music together 
+[b][21:30:31] Mack:[/b] HI! My name is Mack and I am a chatbot!
+[b][21:30:37] User:[/b] do you like yellow?
+[b][21:30:37] Mack:[/b] My favourite colour is the colour of your eyes ;) Selecting paint chips could be a great date for us! 
