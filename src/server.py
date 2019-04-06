@@ -4,11 +4,17 @@ from __future__ import print_function
 from __future__ import unicode_literals
 from wit import Wit
 import personality as p
+import random
 from socket import *
 
 import sys                                  # In order to terminate the program
 import getopt                               # for processsing of args from cmd
 
+unknown_responses = ["I'm sorry I don't understand, wanna talk about sports?",
+                     "I do not understand you at all :|",
+                     "I am very confused right now. Could we talk about something else?",
+                     "I don't understand, wanna talk about lemon squares?",
+                     "I'm sorry I don't know about that"]
 access_token = 'CDNAWIU4OA5JUBDQ3JESSC6AVZWRTDVR'
 
 client = Wit(access_token=access_token)
@@ -60,6 +66,8 @@ def main(argv):
             message = connectionSocket.recv(1024).decode(encoding='UTF-8')
             resp = client.message(message)
             response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+            if response == 'UNKNOWN':
+                response = unknown_responses[random.randint(0, 5)]
             connectionSocket.send(response.encode(encoding='UTF-8'))
             print(response)
 
@@ -67,6 +75,8 @@ def main(argv):
                 message = connectionSocket.recv(1024).decode(encoding='UTF-8')
                 resp = client.message(message)
                 response = p.tree.navigate_tree(resp, "topic", p.tree.get_root())
+                if response == 'UNKNOWN':
+                    response = unknown_responses[random.randint(0, 5)]
                 connectionSocket.send(response.encode(encoding='UTF-8'))
                 print(response)
 
